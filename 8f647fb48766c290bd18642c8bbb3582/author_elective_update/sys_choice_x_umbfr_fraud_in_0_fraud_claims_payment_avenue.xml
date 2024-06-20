@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="error" table="x_umbfr_fraud_in_0_fraud_claims" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="payment_avenue" table="x_umbfr_fraud_in_0_fraud_claims" version="3">
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>error</element>
+            <element>payment_avenue</element>
             <name>x_umbfr_fraud_in_0_fraud_claims</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>MXT011</sys_created_by>
             <sys_created_on>2024-06-14 19:14:24</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>3b13dda987ba4250bd18642c8bbb35a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>error</sys_name>
+            <sys_name>payment_avenue</sys_name>
             <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
-            <sys_update_name>sys_choice_x_umbfr_fraud_in_0_fraud_claims_error</sys_update_name>
+            <sys_update_name>sys_choice_x_umbfr_fraud_in_0_fraud_claims_payment_avenue</sys_update_name>
             <sys_updated_by>MXT011</sys_updated_by>
             <sys_updated_on>2024-06-14 19:14:24</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>error</element>
+            <element>payment_avenue</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Yes</label>
+            <label>Branch</label>
             <language>en</language>
             <name>x_umbfr_fraud_in_0_fraud_claims</name>
             <sequence>0</sequence>
@@ -31,18 +30,17 @@
             <sys_created_by>MXT011</sys_created_by>
             <sys_created_on>2024-06-14 19:14:24</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_id>f313dda987ba4250bd18642c8bbb35a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>MXT011</sys_updated_by>
             <sys_updated_on>2024-06-14 19:14:24</sys_updated_on>
-            <value>yes</value>
+            <value>branch</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>error</element>
+            <element>payment_avenue</element>
             <hint/>
             <inactive>false</inactive>
-            <label>No</label>
+            <label>InClearing</label>
             <language>en</language>
             <name>x_umbfr_fraud_in_0_fraud_claims</name>
             <sequence>1</sequence>
@@ -50,11 +48,10 @@
             <sys_created_by>MXT011</sys_created_by>
             <sys_created_on>2024-06-14 19:14:24</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_id>fb13dda987ba4250bd18642c8bbb35a8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>MXT011</sys_updated_by>
             <sys_updated_on>2024-06-14 19:14:24</sys_updated_on>
-            <value>no</value>
+            <value>inclearing</value>
         </sys_choice>
     </sys_choice>
 </record_update>

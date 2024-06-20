@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="31a5bb788766c290bd18642c8bbb35b2" label="Fraud Claims" max_length="40" name="x_umbfr_fraud_in_0_fraud_claims" type="collection">
+        <element label="Recovery date" max_length="40" name="recovery_date" type="glide_date"/>
+        <element choice="1" label="Oasis" max_length="40" name="oasis" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="SAC" sequence="0" value="sac"/>
+                <element inactive_on_update="false" label="Queue &amp; SAC" sequence="1" value="queue_sac"/>
+            </choice>
+        </element>
+        <element label="Date paperwork received" max_length="255" name="date_paperwork_received" type="glide_date"/>
+        <element label="Branch/MF" max_length="32" name="investigation_regions" reference="x_umbfr_fraud_in_0_branch_mutual_fund" type="reference"/>
+        <element choice="1" label="Line of Business" max_length="40" name="line_of_business" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Consumer" sequence="1" value="consumer"/>
+                <element inactive_on_update="false" label="IBIS" sequence="2" value="ibis"/>
+                <element inactive_on_update="false" label="Commercial" sequence="0" value="commercial"/>
+            </choice>
+        </element>
+        <element label="Claim amount" max_length="20" name="claim_amount" type="currency"/>
+        <element choice="1" label="Online banking access disabled?" max_length="40" name="online_banking_access_disabled" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element choice="1" label="Reg E" max_length="40" name="reg_e" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+            </choice>
+        </element>
+        <element choice="1" label="Error reported" max_length="40" name="error_reported" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element choice="1" label="SAR/CFI" max_length="40" name="sar_cfi" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Work notes" max_length="40" name="work_notes" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element dependent="line_of_business" dependent_on_field="line_of_business" label="IBIS Fund" max_length="40" name="ibis_fund" type="string" use_dependent_field="true"/>
+        <element dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element dependent="investigation_regions" dependent_on_field="investigation_regions" label="Other branch/MF" max_length="40" name="other_region" type="string" use_dependent_field="true"/>
+        <element choice="1" label="Payment avenue" max_length="40" name="payment_avenue" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Branch" sequence="0" value="branch"/>
+                <element inactive_on_update="false" label="InClearing" sequence="1" value="inclearing"/>
+            </choice>
+        </element>
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" reference_qual="nameINEFO Claims,EFO Prevention" reference_qual_condition="nameINEFO Claims,EFO Prevention" type="reference"/>
+        <element label="Recovery amount" max_length="20" name="recovery_amount" type="currency"/>
+        <element choice="1" label="Outstanding paperwork" max_length="40" name="outstanding_paperwork" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="Police Report" sequence="3" value="Police Report"/>
+                <element inactive_on_update="false" label="Affidavit" sequence="0" value="Affidavit"/>
+                <element inactive_on_update="false" label="All" sequence="4" value="All"/>
+                <element inactive_on_update="false" label="FFW" sequence="1" value="FFW"/>
+                <element inactive_on_update="false" label="FCD" sequence="2" value="FCD"/>
+            </choice>
+        </element>
+        <element choice="1" label="Error" max_length="40" name="error" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Loss Exposure Amount" max_length="20" name="loss_exposure_amount" type="currency"/>
+        <element choice="1" label="Requires paperwork" max_length="40" name="requires_paperwork" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+            </choice>
+        </element>
+        <element label="Short description" max_length="250" name="short_description" type="string"/>
+        <element label="Follow up" max_length="40" name="follow_up" type="glide_date"/>
+        <element choice="1" default="open" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive_on_update="false" label="Closed" sequence="1" value="closed"/>
+            </choice>
+        </element>
+        <element choice="1" label="Signature card" max_length="40" name="signature_card" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Claim details" max_length="1000" name="claim_details" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+    </element>
+</database>
