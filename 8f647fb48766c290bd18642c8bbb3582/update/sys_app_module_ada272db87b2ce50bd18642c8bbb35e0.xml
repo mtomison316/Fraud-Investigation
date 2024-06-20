@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>branch_mf_import</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_umbfr_fraud_in_0_branch_mf_import</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <populate_view/>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-06-20 12:41:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>ada272db87b2ce50bd18642c8bbb35e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>branch_mf_import</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_update_name>sys_app_module_ada272db87b2ce50bd18642c8bbb35e0</sys_update_name>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-06-20 12:41:08</sys_updated_on>
+        <timeline_page/>
+        <title>branch_mf_import</title>
+        <u_basic_module/>
+        <u_count_color/>
+        <u_count_filter/>
+        <u_count_text_color>White</u_count_text_color>
+        <u_ixl_count_color/>
+        <u_ixl_count_query/>
+        <u_ixl_count_style/>
+        <u_ixl_count_table/>
+        <u_ixl_show_count>false</u_ixl_show_count>
+        <u_refresh_interval/>
+        <u_show_count>false</u_show_count>
+        <u_sort_order/>
+        <u_tablet_only>false</u_tablet_only>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

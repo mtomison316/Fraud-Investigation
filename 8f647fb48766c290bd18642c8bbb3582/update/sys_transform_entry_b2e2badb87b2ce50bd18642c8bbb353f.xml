@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="branch_mf_import">d7a2f2db87b2ce50bd18642c8bbb3512</map>
+        <reference_value_field/>
+        <source_field>u_name</source_field>
+        <source_script>answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);</source_script>
+        <source_table>x_umbfr_fraud_in_0_branch_mf_import</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-06-20 12:42:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b2e2badb87b2ce50bd18642c8bbb353f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_name</sys_name>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_update_name>sys_transform_entry_b2e2badb87b2ce50bd18642c8bbb353f</sys_update_name>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-06-20 12:42:19</sys_updated_on>
+        <target_field>branch_mf</target_field>
+        <target_table>x_umbfr_fraud_in_0_branch_mutual_fund</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

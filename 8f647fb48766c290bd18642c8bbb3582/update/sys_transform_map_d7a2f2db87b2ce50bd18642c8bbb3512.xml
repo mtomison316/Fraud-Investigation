@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>branch_mf_import</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[/**
+ * For variables go to: http://wiki.service-now.com/index.php?title=Import_Sets_portal
+ **/ 
+]]></script>
+        <source_table>x_umbfr_fraud_in_0_branch_mf_import</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-06-20 12:42:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d7a2f2db87b2ce50bd18642c8bbb3512</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>branch_mf_import</sys_name>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_update_name>sys_transform_map_d7a2f2db87b2ce50bd18642c8bbb3512</sys_update_name>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-06-20 12:42:00</sys_updated_on>
+        <target_table>x_umbfr_fraud_in_0_branch_mutual_fund</target_table>
+    </sys_transform_map>
+</record_update>

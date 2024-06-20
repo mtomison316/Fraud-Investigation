@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="investigation_regions" table="x_umbfr_fraud_in_0_fraud_claims" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>investigation_regions</element>
+            <name>x_umbfr_fraud_in_0_fraud_claims</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-06-14 21:01:17</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>219be1e1877e4250bd18642c8bbb3512</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>investigation_regions</sys_name>
+            <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+            <sys_update_name>sys_choice_x_umbfr_fraud_in_0_fraud_claims_investigation_regions</sys_update_name>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-06-14 21:01:17</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_kmf_crypto_caller_policy">
+    <sys_kmf_crypto_caller_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <approval_type/>
+        <check_script_hash>false</check_script_hash>
+        <crypto_module display_value="sn_disco_certmgmt.glide_encrypter">5cdac34b6b2620102e15a1512e44af4a</crypto_module>
+        <crypto_spec/>
+        <granular_operation/>
+        <identity_group_alias/>
+        <impersonation>false</impersonation>
+        <instance_recipient/>
+        <owner>a5c8766d0a0a3c7b0064b5ab29d491bd</owner>
+        <policy_name>AutoGen-scope-x_umbfr_fraud_in_0-null</policy_name>
+        <result>reject</result>
+        <script_hash/>
+        <script_table/>
+        <signature_data/>
+        <specify_purpose>false</specify_purpose>
+        <sys_class_name>sys_kmf_crypto_caller_policy</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-06-14 16:05:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>06f7642587b64250bd18642c8bbb355f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_update_name>sys_kmf_crypto_caller_policy_06f7642587b64250bd18642c8bbb355f</sys_update_name>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-06-14 16:05:52</sys_updated_on>
+        <target_role/>
+        <target_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</target_scope>
+        <target_script/>
+        <type>3</type>
+        <used>false</used>
+    </sys_kmf_crypto_caller_policy>
+</record_update>
