@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_umbfr_fraud_in_0_branch_mutual_fund</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-06-20 12:28:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e4cf6e1787b2ce50bd18642c8bbb3505</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_umbfr_fraud_in_0_branch_mutual_fund</sys_name>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_update_name>sys_security_acl_e4cf6e1787b2ce50bd18642c8bbb3505</sys_update_name>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-06-20 12:28:30</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</application>
+        <comments/>
+        <file_path/>
+        <instance_id>a5c8766d0a0a3c7b0064b5ab29d491bd</instance_id>
+        <instance_name>umbdev</instance_name>
+        <name>sys_security_acl_e4cf6e1787b2ce50bd18642c8bbb3505</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>true</advanced><condition/><description/><local_or_existing>Local</local_or_existing><name>x_umbfr_fraud_in_0_branch_mutual_fund</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-06-20 12:28:30</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>e4cf6e1787b2ce50bd18642c8bbb3505</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_umbfr_fraud_in_0_branch_mutual_fund</sys_name><sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope><sys_update_name>sys_security_acl_e4cf6e1787b2ce50bd18642c8bbb3505</sys_update_name><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-06-20 12:28:30</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-216883493</payload_hash>
+        <record_name>x_umbfr_fraud_in_0_branch_mutual_fund</record_name>
+        <reverted_from/>
+        <source>8b647fb48766c290bd18642c8bbb35c5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-06-20 12:28:30</sys_created_on>
+        <sys_id>e0cf6e1787b2ce50bd18642c8bbb3585</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190359eb1250000001</sys_recorded_at>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-06-20 12:28:30</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>a4cf6e173ab2ce50d96e0ef31295c184</update_guid>
+        <update_guid_history>a4cf6e173ab2ce50d96e0ef31295c184:-216883493</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-07-11 13:28:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>1b64ea092c2941cc896e3eb3e0ff4ae4</sys_id>
+        <sys_metadata>e4cf6e1787b2ce50bd18642c8bbb3505</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_umbfr_fraud_in_0_branch_mutual_fund</sys_name>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_parent display_value="x_umbfr_fraud_in_0_branch_mutual_fund">febfaa1787b2ce50bd18642c8bbb35a0</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_scope_delete display_value="">4fb75f2f386d4846a0296d28392f00c4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_e4cf6e1787b2ce50bd18642c8bbb3505</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_e4cf6e1787b2ce50bd18642c8bbb3505">e0cf6e1787b2ce50bd18642c8bbb3585</sys_update_version>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-07-11 13:28:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

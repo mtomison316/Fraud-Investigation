@@ -4,209 +4,195 @@
             <element>claim_details</element>
             <position>0</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-20 12:57:08</sys_created_on>
-            <sys_id>c856fad387f2ce50bd18642c8bbb3584</sys_id>
+            <sys_created_on>2024-07-10 21:30:20</sys_created_on>
+            <sys_id>689ba7fd1b1f0210f4eea9bfbd4bcbc0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-20 12:57:08</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
-            <position>1</position>
-            <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-20 12:57:08</sys_created_on>
-            <sys_id>0856fad387f2ce50bd18642c8bbb3585</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
-            <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-20 12:57:08</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>loss_exposure_amount</element>
-            <position>2</position>
-            <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-20 12:57:09</sys_created_on>
-            <sys_id>0056fad387f2ce50bd18642c8bbb3586</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
-            <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-20 12:57:09</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>recovery_amount</element>
-            <position>3</position>
-            <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-20 12:57:09</sys_created_on>
-            <sys_id>0856fad387f2ce50bd18642c8bbb3586</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
-            <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-20 12:57:09</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>oasis</element>
-            <position>4</position>
-            <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-20 12:57:09</sys_created_on>
-            <sys_id>0056fad387f2ce50bd18642c8bbb3587</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
-            <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-20 12:57:09</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>payment_avenue</element>
-            <position>5</position>
-            <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-20 12:57:09</sys_created_on>
-            <sys_id>0856fad387f2ce50bd18642c8bbb3587</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
-            <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-20 12:57:09</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>reg_e</element>
-            <position>6</position>
-            <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-20 12:57:09</sys_created_on>
-            <sys_id>0056fad387f2ce50bd18642c8bbb3588</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
-            <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-20 12:57:09</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>date_paperwork_received</element>
-            <position>7</position>
-            <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-20 12:57:09</sys_created_on>
-            <sys_id>0856fad387f2ce50bd18642c8bbb3588</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
-            <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-20 12:57:09</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>8</position>
-            <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-20 12:57:09</sys_created_on>
-            <sys_id>0056fad387f2ce50bd18642c8bbb3589</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
-            <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-20 12:57:09</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>signature_card</element>
-            <position>9</position>
-            <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-20 12:57:09</sys_created_on>
-            <sys_id>0856fad387f2ce50bd18642c8bbb3589</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
-            <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-20 12:57:09</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>sar_cfi</element>
-            <position>10</position>
-            <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-20 12:57:09</sys_created_on>
-            <sys_id>0056fad387f2ce50bd18642c8bbb358a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
-            <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-20 12:57:09</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>error</element>
-            <position>11</position>
-            <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-20 12:57:09</sys_created_on>
-            <sys_id>0856fad387f2ce50bd18642c8bbb358a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
-            <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-20 12:57:09</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>error_reported</element>
-            <position>12</position>
-            <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-20 12:57:09</sys_created_on>
-            <sys_id>0056fad387f2ce50bd18642c8bbb358b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
-            <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-20 12:57:09</sys_updated_on>
+            <sys_updated_on>2024-07-10 21:30:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>requires_paperwork</element>
-            <position>13</position>
+            <position>1</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-20 12:57:09</sys_created_on>
-            <sys_id>0856fad387f2ce50bd18642c8bbb358b</sys_id>
+            <sys_created_on>2024-07-10 21:30:20</sys_created_on>
+            <sys_id>609ba7fd1b1f0210f4eea9bfbd4bcbc1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-20 12:57:09</sys_updated_on>
+            <sys_updated_on>2024-07-10 21:30:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>outstanding_paperwork</element>
-            <position>14</position>
+            <position>2</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-20 12:57:09</sys_created_on>
-            <sys_id>0056fad387f2ce50bd18642c8bbb358c</sys_id>
+            <sys_created_on>2024-07-10 21:30:20</sys_created_on>
+            <sys_id>689ba7fd1b1f0210f4eea9bfbd4bcbc1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-20 12:57:09</sys_updated_on>
+            <sys_updated_on>2024-07-10 21:30:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>3</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-07-10 21:30:20</sys_created_on>
+            <sys_id>609ba7fd1b1f0210f4eea9bfbd4bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-07-10 21:30:20</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>investigation_regions</element>
+            <position>4</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-07-10 21:30:20</sys_created_on>
+            <sys_id>689ba7fd1b1f0210f4eea9bfbd4bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-07-10 21:30:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_region</element>
+            <position>5</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-07-10 21:30:20</sys_created_on>
+            <sys_id>609ba7fd1b1f0210f4eea9bfbd4bcbc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-07-10 21:30:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>oasis</element>
+            <position>6</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-07-10 21:30:20</sys_created_on>
+            <sys_id>689ba7fd1b1f0210f4eea9bfbd4bcbc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-07-10 21:30:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reg_e</element>
+            <position>7</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-07-10 21:30:20</sys_created_on>
+            <sys_id>609ba7fd1b1f0210f4eea9bfbd4bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-07-10 21:30:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>online_banking_access_disabled</element>
+            <position>8</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-07-10 21:30:20</sys_created_on>
+            <sys_id>689ba7fd1b1f0210f4eea9bfbd4bcbc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-07-10 21:30:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-07-10 21:30:20</sys_created_on>
+            <sys_id>609ba7fd1b1f0210f4eea9bfbd4bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-07-10 21:30:20</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>region</element>
+            <position>10</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-07-10 21:30:20</sys_created_on>
+            <sys_id>689ba7fd1b1f0210f4eea9bfbd4bcbc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-07-10 21:30:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>prevention_escalation</element>
+            <position>11</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-07-10 21:30:20</sys_created_on>
+            <sys_id>289ba7fd1b1f0210f4eea9bfbd4bcbd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-07-10 21:30:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>signature_card</element>
+            <position>12</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-07-10 21:30:20</sys_created_on>
+            <sys_id>209ba7fd1b1f0210f4eea9bfbd4bcbd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-07-10 21:30:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sar_cfi</element>
+            <position>13</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-07-10 21:30:20</sys_created_on>
+            <sys_id>289ba7fd1b1f0210f4eea9bfbd4bcbd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-07-10 21:30:20</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

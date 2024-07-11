@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-14 20:59:19</sys_created_on>
-            <sys_id>bc2b2d61877e4250bd18642c8bbb35e5</sys_id>
+            <sys_created_on>2024-07-10 21:30:19</sys_created_on>
+            <sys_id>149ba7fd1b1f0210f4eea9bfbd4bcb60</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">fea53f388766c290bd18642c8bbb3580</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-14 20:59:19</sys_updated_on>
+            <sys_updated_on>2024-07-10 21:30:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,27 +18,27 @@
             <element>state</element>
             <position>1</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-14 20:59:19</sys_created_on>
-            <sys_id>f82b2d61877e4250bd18642c8bbb35e6</sys_id>
+            <sys_created_on>2024-07-10 21:30:19</sys_created_on>
+            <sys_id>509ba7fd1b1f0210f4eea9bfbd4bcb61</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">fea53f388766c290bd18642c8bbb3580</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-14 20:59:19</sys_updated_on>
+            <sys_updated_on>2024-07-10 21:30:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>investigation_regions</element>
+            <element>follow_up</element>
             <position>2</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-14 20:59:19</sys_created_on>
-            <sys_id>f02b2d61877e4250bd18642c8bbb35e7</sys_id>
+            <sys_created_on>2024-07-10 21:30:19</sys_created_on>
+            <sys_id>589ba7fd1b1f0210f4eea9bfbd4bcb61</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">fea53f388766c290bd18642c8bbb3580</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-14 20:59:19</sys_updated_on>
+            <sys_updated_on>2024-07-10 21:30:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-14 20:59:19</sys_created_on>
-            <sys_id>f82b2d61877e4250bd18642c8bbb35e7</sys_id>
+            <sys_created_on>2024-07-10 21:30:19</sys_created_on>
+            <sys_id>509ba7fd1b1f0210f4eea9bfbd4bcb62</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">fea53f388766c290bd18642c8bbb3580</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-14 20:59:19</sys_updated_on>
+            <sys_updated_on>2024-07-10 21:30:19</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>assignment_group</element>
             <position>4</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-14 20:59:19</sys_created_on>
-            <sys_id>f02b2d61877e4250bd18642c8bbb35e8</sys_id>
+            <sys_created_on>2024-07-10 21:30:19</sys_created_on>
+            <sys_id>109ba7fd1b1f0210f4eea9bfbd4bcb6f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">fea53f388766c290bd18642c8bbb3580</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-14 20:59:19</sys_updated_on>
+            <sys_updated_on>2024-07-10 21:30:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,27 +74,27 @@
             <element>assigned_to</element>
             <position>5</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-14 20:59:19</sys_created_on>
-            <sys_id>f82b2d61877e4250bd18642c8bbb35e8</sys_id>
+            <sys_created_on>2024-07-10 21:30:19</sys_created_on>
+            <sys_id>189ba7fd1b1f0210f4eea9bfbd4bcb6f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">fea53f388766c290bd18642c8bbb3580</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-14 20:59:19</sys_updated_on>
+            <sys_updated_on>2024-07-10 21:30:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>other_region</element>
+            <element>date_paperwork_received</element>
             <position>6</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-14 20:59:19</sys_created_on>
-            <sys_id>f02b2d61877e4250bd18642c8bbb35e9</sys_id>
+            <sys_created_on>2024-07-10 21:30:19</sys_created_on>
+            <sys_id>109ba7fd1b1f0210f4eea9bfbd4bcb70</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">fea53f388766c290bd18642c8bbb3580</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-14 20:59:19</sys_updated_on>
+            <sys_updated_on>2024-07-10 21:30:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>.end_split</element>
             <position>7</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-14 20:59:19</sys_created_on>
-            <sys_id>f82b2d61877e4250bd18642c8bbb35e9</sys_id>
+            <sys_created_on>2024-07-10 21:30:19</sys_created_on>
+            <sys_id>189ba7fd1b1f0210f4eea9bfbd4bcb70</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">fea53f388766c290bd18642c8bbb3580</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-14 20:59:19</sys_updated_on>
+            <sys_updated_on>2024-07-10 21:30:19</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>short_description</element>
             <position>8</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-14 20:59:19</sys_created_on>
-            <sys_id>f02b2d61877e4250bd18642c8bbb35ea</sys_id>
+            <sys_created_on>2024-07-10 21:30:19</sys_created_on>
+            <sys_id>109ba7fd1b1f0210f4eea9bfbd4bcb71</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">fea53f388766c290bd18642c8bbb3580</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-14 20:59:19</sys_updated_on>
+            <sys_updated_on>2024-07-10 21:30:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>description</element>
             <position>9</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-14 20:59:19</sys_created_on>
-            <sys_id>f82b2d61877e4250bd18642c8bbb35ea</sys_id>
+            <sys_created_on>2024-07-10 21:30:19</sys_created_on>
+            <sys_id>189ba7fd1b1f0210f4eea9bfbd4bcb71</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">fea53f388766c290bd18642c8bbb3580</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-14 20:59:19</sys_updated_on>
+            <sys_updated_on>2024-07-10 21:30:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -71,5 +71,95 @@
             <sys_updated_on>2024-06-14 19:09:54</sys_updated_on>
             <value>ibis</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>line_of_business</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HSA</label>
+            <language>en</language>
+            <name>x_umbfr_fraud_in_0_fraud_claims</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-07-10 20:21:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-07-10 20:21:21</sys_updated_on>
+            <value>hsa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>line_of_business</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mutual Fund</label>
+            <language>en</language>
+            <name>x_umbfr_fraud_in_0_fraud_claims</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-07-10 20:21:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-07-10 20:21:22</sys_updated_on>
+            <value>mutual_fund</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>line_of_business</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FT</label>
+            <language>en</language>
+            <name>x_umbfr_fraud_in_0_fraud_claims</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-07-10 20:21:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-07-10 20:21:22</sys_updated_on>
+            <value>ft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>line_of_business</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PWM</label>
+            <language>en</language>
+            <name>x_umbfr_fraud_in_0_fraud_claims</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-07-10 20:21:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-07-10 20:21:22</sys_updated_on>
+            <value>pwm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>line_of_business</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SMB</label>
+            <language>en</language>
+            <name>x_umbfr_fraud_in_0_fraud_claims</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-07-10 20:21:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-07-10 20:21:22</sys_updated_on>
+            <value>smb</value>
+        </sys_choice>
     </sys_choice>
 </record_update>
