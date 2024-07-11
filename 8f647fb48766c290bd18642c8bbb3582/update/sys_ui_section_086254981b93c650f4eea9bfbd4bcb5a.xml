@@ -1,30 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Activity / Notes" section_id="086254981b93c650f4eea9bfbd4bcb5a" sys_domain="global" table="x_umbfr_fraud_in_0_fraud_claims" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>work_notes</element>
+            <element>preventio_action</element>
             <position>0</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-05 13:51:55</sys_created_on>
-            <sys_id>f4b2dc981b93c650f4eea9bfbd4bcb9b</sys_id>
+            <sys_created_on>2024-07-11 14:28:58</sys_created_on>
+            <sys_id>4ab4170a87538210bd18642c8bbb35f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Activity / Notes" display_value="Activity / Notes" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">086254981b93c650f4eea9bfbd4bcb5a</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-05 13:51:55</sys_updated_on>
+            <sys_updated_on>2024-07-11 14:28:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>1</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-07-11 14:28:58</sys_created_on>
+            <sys_id>42b4170a87538210bd18642c8bbb35f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Activity / Notes" display_value="Activity / Notes" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">086254981b93c650f4eea9bfbd4bcb5a</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-07-11 14:28:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>activity.xml</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-05 13:51:55</sys_created_on>
-            <sys_id>fcb2dc981b93c650f4eea9bfbd4bcb9b</sys_id>
+            <sys_created_on>2024-07-11 14:28:58</sys_created_on>
+            <sys_id>4ab4170a87538210bd18642c8bbb35f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="Activity / Notes" display_value="Activity / Notes" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">086254981b93c650f4eea9bfbd4bcb5a</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-05 13:51:55</sys_updated_on>
+            <sys_updated_on>2024-07-11 14:28:58</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>

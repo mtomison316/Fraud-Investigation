@@ -10,20 +10,8 @@
         </element>
         <element label="Date paperwork received" max_length="255" name="date_paperwork_received" type="glide_date"/>
         <element label="Branch/MF" max_length="32" name="investigation_regions" reference="x_umbfr_fraud_in_0_branch_mutual_fund" type="reference"/>
-        <element choice="1" label="Line of Business" max_length="40" name="line_of_business" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="SMB" sequence="7" value="smb"/>
-                <element inactive_on_update="false" label="Consumer" sequence="1" value="consumer"/>
-                <element inactive_on_update="false" label="IBIS" sequence="2" value="ibis"/>
-                <element inactive_on_update="false" label="FT" sequence="5" value="ft"/>
-                <element inactive_on_update="false" label="HSA" sequence="3" value="hsa"/>
-                <element inactive_on_update="false" label="Mutual Fund" sequence="4" value="mutual_fund"/>
-                <element inactive_on_update="false" label="PWM" sequence="6" value="pwm"/>
-                <element inactive_on_update="false" label="Commercial" sequence="0" value="commercial"/>
-            </choice>
-        </element>
         <element label="Claim amount" max_length="20" name="claim_amount" type="currency"/>
-        <element label="Prevention Escalation" max_length="32" name="prevention_escalation" reference="x_umbfr_fraud_in_0_prevention_escalation" type="reference"/>
+        <element label="Prevention escalation" max_length="32" name="prevention_escalation" reference="x_umbfr_fraud_in_0_prevention_escalation" type="reference"/>
         <element choice="1" label="Online banking access disabled?" max_length="40" name="online_banking_access_disabled" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
@@ -50,20 +38,26 @@
         </element>
         <element label="Description" max_length="1000" name="description" type="string"/>
         <element label="Work notes" max_length="40" name="work_notes" type="journal"/>
+        <element label="Prevented loss" max_length="20" name="prevented_loss" type="currency"/>
+        <element label="Prevention action" max_length="40" name="preventio_action" type="string"/>
         <element label="Multiple recovery amounts" max_length="40" name="multiple_recovery_amounts" type="boolean"/>
         <element label="Type of Fraud" max_length="32" name="type_of_fraud" reference="x_umbfr_fraud_in_0_fraud_types" type="reference"/>
         <element label="Recovery amount #2" max_length="40" name="recovery_amount_2" type="currency"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element dependent="line_of_business" dependent_on_field="line_of_business" label="IBIS Fund" max_length="40" name="ibis_fund" type="string" use_dependent_field="true"/>
+        <element label="LOB Loss" max_length="32" name="lob_loss" reference="x_umbfr_fraud_in_0_line_of_business" type="reference"/>
+        <element label="Acct Number" max_length="40" name="acct_number" type="string"/>
         <element dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element dependent="investigation_regions" dependent_on_field="investigation_regions" label="Other branch/MF" max_length="40" name="other_region" type="string" use_dependent_field="true"/>
         <element label="Recovery date #2" max_length="40" name="recovery_date_2" type="glide_date"/>
+        <element label="Loss collection" max_length="40" name="loss_collection" type="string"/>
         <element choice="1" label="Payment avenue" max_length="40" name="payment_avenue" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Branch" sequence="0" value="branch"/>
                 <element inactive_on_update="false" label="InClearing" sequence="1" value="inclearing"/>
             </choice>
         </element>
+        <element label="Customer" max_length="40" name="customer" type="string"/>
         <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" reference_qual="nameINEFO Claims,EFO Prevention" reference_qual_condition="nameINEFO Claims,EFO Prevention" type="reference"/>
         <element label="Recovery amount #1" max_length="20" name="recovery_amount" type="currency"/>
         <element choice="1" label="Outstanding paperwork" max_length="40" name="outstanding_paperwork" type="glide_list">
@@ -91,7 +85,9 @@
         <element label="Short description" max_length="250" name="short_description" type="string"/>
         <element label="Follow up" max_length="40" name="follow_up" type="glide_date"/>
         <element label="Region" max_length="32" name="region" reference="x_umbfr_fraud_in_0_regions" type="reference"/>
+        <element label="Confirmed fraud" max_length="255" name="confirmed_fraud" type="boolean"/>
         <element label="Transaction Specialist Error" max_length="32" name="transaction_specialist_error" reference="x_umbfr_fraud_in_0_transaction_specialist_error" type="reference"/>
+        <element label="Line of Business" max_length="32" name="line_of_business" reference="x_umbfr_fraud_in_0_line_of_business" type="reference"/>
         <element label="Recovery amount #3" max_length="40" name="recovery_amount_3" type="currency"/>
         <element label="Recovery date #3" max_length="40" name="recovery_date_3" type="glide_date"/>
         <element choice="1" default="open" label="State" max_length="40" name="state" type="choice">
@@ -114,15 +110,21 @@
             <element name="assignment_group"/>
         </index>
         <index name="index3">
-            <element name="prevention_escalation"/>
+            <element name="line_of_business"/>
         </index>
         <index name="index4">
-            <element name="region"/>
+            <element name="lob_loss"/>
         </index>
         <index name="index5">
-            <element name="transaction_specialist_error"/>
+            <element name="prevention_escalation"/>
         </index>
         <index name="index6">
+            <element name="region"/>
+        </index>
+        <index name="index7">
+            <element name="transaction_specialist_error"/>
+        </index>
+        <index name="index8">
             <element name="type_of_fraud"/>
         </index>
     </element>

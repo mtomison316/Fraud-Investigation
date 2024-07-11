@@ -16,15 +16,15 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-14 16:07:11</sys_created_on>
+            <sys_created_on>2024-07-11 14:23:19</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_id>55486c2587b64250bd18642c8bbb35ba</sys_id>
+            <sys_id>d763938687538210bd18642c8bbb356b</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_umbfr_fraud_in_0_fraud_claims" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">11486c2587b64250bd18642c8bbb353e</sys_ui_form>
-            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">15486c2587b64250bd18642c8bbb353d</sys_ui_section>
+            <sys_ui_section caption="Claim details" display_value="Claim details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">4763938687538210bd18642c8bbb3502</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-14 16:08:42</sys_updated_on>
+            <sys_updated_on>2024-07-11 14:23:19</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
@@ -68,28 +68,15 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>5</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-14 19:27:03</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_id>8506152187fa4250bd18642c8bbb35a4</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_umbfr_fraud_in_0_fraud_claims" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">11486c2587b64250bd18642c8bbb353e</sys_ui_form>
-            <sys_ui_section caption="Line of Business" display_value="Line of Business" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">c106152187fa4250bd18642c8bbb35a1</sys_ui_section>
-            <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-10 21:24:37</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>6</position>
-            <sys_created_by>MXT011</sys_created_by>
             <sys_created_on>2024-07-05 13:50:31</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>0c6254981b93c650f4eea9bfbd4bcb5e</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_umbfr_fraud_in_0_fraud_claims" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">11486c2587b64250bd18642c8bbb353e</sys_ui_form>
             <sys_ui_section caption="Activity / Notes" display_value="Activity / Notes" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">086254981b93c650f4eea9bfbd4bcb5a</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-10 21:24:37</sys_updated_on>
+            <sys_updated_on>2024-07-11 14:07:31</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_umbfr_fraud_in_0_fraud_claims</name>

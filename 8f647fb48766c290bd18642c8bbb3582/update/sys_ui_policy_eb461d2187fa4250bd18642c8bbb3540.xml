@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_umbfr_fraud_in_0_fraud_claims">line_of_business=ibis<item display_value="IBIS" endquery="false" field="line_of_business" goto="false" newquery="false" operator="=" or="false" value="ibis"/>
+        <conditions table="x_umbfr_fraud_in_0_fraud_claims">line_of_business=6412dbc287538210bd18642c8bbb351b<item display_table="x_umbfr_fraud_in_0_line_of_business" display_value="IBIS" endquery="false" field="line_of_business" goto="false" newquery="false" operator="=" or="false" value="6412dbc287538210bd18642c8bbb351b"/>
         </conditions>
         <description/>
         <global>true</global>
@@ -23,7 +23,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>eb461d2187fa4250bd18642c8bbb3540</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>LOB - IBIS Fund</sys_name>
         <sys_overrides/>
         <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
         <sys_update_name>sys_ui_policy_eb461d2187fa4250bd18642c8bbb3540</sys_update_name>
         <sys_updated_by>MXT011</sys_updated_by>
-        <sys_updated_on>2024-06-14 19:28:18</sys_updated_on>
+        <sys_updated_on>2024-07-11 14:20:26</sys_updated_on>
         <table>x_umbfr_fraud_in_0_fraud_claims</table>
         <ui_type>0</ui_type>
         <view/>

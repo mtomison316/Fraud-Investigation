@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="prevention_escalation" label="Prevention escalation" language="en" table="x_umbfr_fraud_in_0_fraud_claims">
+    <sys_documentation element="customer" label="Customer" language="en" table="x_umbfr_fraud_in_0_fraud_claims">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>prevention_escalation</element>
+            <element>customer</element>
             <help/>
             <hint/>
-            <label>Prevention escalation</label>
+            <label>Customer</label>
             <language>en</language>
             <name>x_umbfr_fraud_in_0_fraud_claims</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-10 20:49:47</sys_created_on>
+            <sys_created_on>2024-07-11 14:23:16</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_mod_count>7</sys_mod_count>
-            <sys_name>Prevention escalation</sys_name>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Customer</sys_name>
             <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
-            <sys_update_name>sys_documentation_x_umbfr_fraud_in_0_fraud_claims_prevention_escalation_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_umbfr_fraud_in_0_fraud_claims_customer_en</sys_update_name>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-11 14:30:20</sys_updated_on>
+            <sys_updated_on>2024-07-11 14:23:17</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

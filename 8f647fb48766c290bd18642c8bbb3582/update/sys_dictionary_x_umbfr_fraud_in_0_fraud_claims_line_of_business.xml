@@ -5,7 +5,7 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>1</choice>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Line of Business</column_label>
@@ -27,15 +27,15 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Choice">choice</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>32</max_length>
         <name>x_umbfr_fraud_in_0_fraud_claims</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_umbfr_fraud_in_0_line_of_business">x_umbfr_fraud_in_0_line_of_business</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -46,7 +46,7 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>MXT011</sys_created_by>
-        <sys_created_on>2024-06-14 19:09:52</sys_created_on>
+        <sys_created_on>2024-07-11 14:16:25</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_name>Line of Business</sys_name>
         <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
@@ -55,7 +55,7 @@
         <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
         <sys_update_name>sys_dictionary_x_umbfr_fraud_in_0_fraud_claims_line_of_business</sys_update_name>
         <sys_updated_by>MXT011</sys_updated_by>
-        <sys_updated_on>2024-06-14 19:09:53</sys_updated_on>
+        <sys_updated_on>2024-07-11 14:16:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

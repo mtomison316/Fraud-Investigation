@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="prevention_escalation" table="x_umbfr_fraud_in_0_fraud_claims">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="loss_collection" table="x_umbfr_fraud_in_0_fraud_claims">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -8,7 +8,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Prevention escalation</column_label>
+        <column_label>Loss collection</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,21 +21,21 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>prevention_escalation</element>
+        <element>loss_collection</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>32</max_length>
+        <max_length>40</max_length>
         <name>x_umbfr_fraud_in_0_fraud_claims</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_umbfr_fraud_in_0_prevention_escalation">x_umbfr_fraud_in_0_prevention_escalation</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -46,16 +46,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>MXT011</sys_created_by>
-        <sys_created_on>2024-07-10 20:49:47</sys_created_on>
+        <sys_created_on>2024-07-11 14:28:54</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_name>Prevention escalation</sys_name>
+        <sys_name>Loss collection</sys_name>
         <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
-        <sys_update_name>sys_dictionary_x_umbfr_fraud_in_0_fraud_claims_prevention_escalation</sys_update_name>
+        <sys_update_name>sys_dictionary_x_umbfr_fraud_in_0_fraud_claims_loss_collection</sys_update_name>
         <sys_updated_by>MXT011</sys_updated_by>
-        <sys_updated_on>2024-07-11 14:30:20</sys_updated_on>
+        <sys_updated_on>2024-07-11 14:28:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
