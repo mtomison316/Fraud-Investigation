@@ -4,13 +4,13 @@
             <element>loss_exposure_amount</element>
             <position>0</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-11 14:28:57</sys_created_on>
-            <sys_id>b1b4170a87538210bd18642c8bbb35ce</sys_id>
+            <sys_created_on>2024-07-23 16:42:15</sys_created_on>
+            <sys_id>2f46610287a70e50bd18642c8bbb35d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Loss Amounts" display_value="Loss Amounts" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">744aeb3d1b1f0210f4eea9bfbd4bcb3a</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-11 14:28:57</sys_updated_on>
+            <sys_updated_on>2024-07-23 16:42:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>actual_loss</element>
             <position>1</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-11 14:28:57</sys_created_on>
-            <sys_id>fdb4170a87538210bd18642c8bbb35ce</sys_id>
+            <sys_created_on>2024-07-23 16:42:15</sys_created_on>
+            <sys_id>2746610287a70e50bd18642c8bbb35d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Loss Amounts" display_value="Loss Amounts" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">744aeb3d1b1f0210f4eea9bfbd4bcb3a</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-11 14:28:57</sys_updated_on>
+            <sys_updated_on>2024-07-23 16:42:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>lob_loss</element>
             <position>2</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-11 14:28:57</sys_created_on>
-            <sys_id>f5b4170a87538210bd18642c8bbb35cf</sys_id>
+            <sys_created_on>2024-07-23 16:42:15</sys_created_on>
+            <sys_id>2f46610287a70e50bd18642c8bbb35d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Loss Amounts" display_value="Loss Amounts" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">744aeb3d1b1f0210f4eea9bfbd4bcb3a</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-11 14:28:57</sys_updated_on>
+            <sys_updated_on>2024-07-23 16:42:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,55 +46,41 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-11 14:28:57</sys_created_on>
-            <sys_id>fdb4170a87538210bd18642c8bbb35cf</sys_id>
+            <sys_created_on>2024-07-23 16:42:15</sys_created_on>
+            <sys_id>2746610287a70e50bd18642c8bbb35d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Loss Amounts" display_value="Loss Amounts" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">744aeb3d1b1f0210f4eea9bfbd4bcb3a</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-11 14:28:57</sys_updated_on>
+            <sys_updated_on>2024-07-23 16:42:15</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>claim_amount</element>
+            <element>prevented_loss</element>
             <position>4</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-11 14:28:57</sys_created_on>
-            <sys_id>f5b4170a87538210bd18642c8bbb35d0</sys_id>
+            <sys_created_on>2024-07-23 16:42:15</sys_created_on>
+            <sys_id>2f46610287a70e50bd18642c8bbb35d5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Loss Amounts" display_value="Loss Amounts" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">744aeb3d1b1f0210f4eea9bfbd4bcb3a</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-11 14:28:57</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>prevented_loss</element>
-            <position>5</position>
-            <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-11 14:28:57</sys_created_on>
-            <sys_id>fdb4170a87538210bd18642c8bbb35d0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Loss Amounts" display_value="Loss Amounts" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">744aeb3d1b1f0210f4eea9bfbd4bcb3a</sys_ui_section>
-            <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-11 14:28:57</sys_updated_on>
+            <sys_updated_on>2024-07-23 16:42:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>loss_collection</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-11 14:28:57</sys_created_on>
-            <sys_id>f5b4170a87538210bd18642c8bbb35d1</sys_id>
+            <sys_created_on>2024-07-23 16:42:15</sys_created_on>
+            <sys_id>2746610287a70e50bd18642c8bbb35d6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Loss Amounts" display_value="Loss Amounts" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">744aeb3d1b1f0210f4eea9bfbd4bcb3a</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-11 14:28:57</sys_updated_on>
+            <sys_updated_on>2024-07-23 16:42:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

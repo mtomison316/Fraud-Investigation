@@ -4,13 +4,13 @@
             <element>type_of_fraud</element>
             <position>0</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-11 14:28:58</sys_created_on>
-            <sys_id>4ab4170a87538210bd18642c8bbb35dc</sys_id>
+            <sys_created_on>2024-07-23 16:42:15</sys_created_on>
+            <sys_id>1b46610287a70e50bd18642c8bbb3599</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Fraud Details" display_value="Fraud Details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">f04aeb3d1b1f0210f4eea9bfbd4bcb3b</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-11 14:28:58</sys_updated_on>
+            <sys_updated_on>2024-07-23 16:42:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>error</element>
             <position>1</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-11 14:28:58</sys_created_on>
-            <sys_id>42b4170a87538210bd18642c8bbb35dd</sys_id>
+            <sys_created_on>2024-07-23 16:42:15</sys_created_on>
+            <sys_id>1346610287a70e50bd18642c8bbb359a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Fraud Details" display_value="Fraud Details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">f04aeb3d1b1f0210f4eea9bfbd4bcb3b</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-11 14:28:58</sys_updated_on>
+            <sys_updated_on>2024-07-23 16:42:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>error_reported</element>
             <position>2</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-11 14:28:58</sys_created_on>
-            <sys_id>4ab4170a87538210bd18642c8bbb35dd</sys_id>
+            <sys_created_on>2024-07-23 16:42:15</sys_created_on>
+            <sys_id>1b46610287a70e50bd18642c8bbb359a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Fraud Details" display_value="Fraud Details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">f04aeb3d1b1f0210f4eea9bfbd4bcb3b</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-11 14:28:58</sys_updated_on>
+            <sys_updated_on>2024-07-23 16:42:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-11 14:28:58</sys_created_on>
-            <sys_id>42b4170a87538210bd18642c8bbb35de</sys_id>
+            <sys_created_on>2024-07-23 16:42:15</sys_created_on>
+            <sys_id>1346610287a70e50bd18642c8bbb359b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Fraud Details" display_value="Fraud Details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">f04aeb3d1b1f0210f4eea9bfbd4bcb3b</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-11 14:28:58</sys_updated_on>
+            <sys_updated_on>2024-07-23 16:42:15</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,27 +60,27 @@
             <element>payment_avenue</element>
             <position>4</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-11 14:28:58</sys_created_on>
-            <sys_id>4ab4170a87538210bd18642c8bbb35de</sys_id>
+            <sys_created_on>2024-07-23 16:42:15</sys_created_on>
+            <sys_id>1b46610287a70e50bd18642c8bbb359b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Fraud Details" display_value="Fraud Details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">f04aeb3d1b1f0210f4eea9bfbd4bcb3b</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-11 14:28:58</sys_updated_on>
+            <sys_updated_on>2024-07-23 16:42:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>confirmed_fraud</element>
+            <element>claim_amount</element>
             <position>5</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-11 14:28:58</sys_created_on>
-            <sys_id>42b4170a87538210bd18642c8bbb35df</sys_id>
+            <sys_created_on>2024-07-23 16:42:15</sys_created_on>
+            <sys_id>1346610287a70e50bd18642c8bbb359c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Fraud Details" display_value="Fraud Details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">f04aeb3d1b1f0210f4eea9bfbd4bcb3b</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-11 14:28:58</sys_updated_on>
+            <sys_updated_on>2024-07-23 16:42:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>transaction_specialist_error</element>
             <position>6</position>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-11 14:28:58</sys_created_on>
-            <sys_id>4ab4170a87538210bd18642c8bbb35df</sys_id>
+            <sys_created_on>2024-07-23 16:42:15</sys_created_on>
+            <sys_id>1b46610287a70e50bd18642c8bbb359c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Fraud Details" display_value="Fraud Details" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">f04aeb3d1b1f0210f4eea9bfbd4bcb3b</sys_ui_section>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-11 14:28:58</sys_updated_on>
+            <sys_updated_on>2024-07-23 16:42:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
