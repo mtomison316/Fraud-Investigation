@@ -5,7 +5,7 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Loss Exposure Amount</column_label>
@@ -33,7 +33,7 @@
         <name>x_umbfr_fraud_in_0_fraud_claims</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -55,7 +55,7 @@
         <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
         <sys_update_name>sys_dictionary_x_umbfr_fraud_in_0_fraud_claims_loss_exposure_amount</sys_update_name>
         <sys_updated_by>MXT011</sys_updated_by>
-        <sys_updated_on>2024-06-14 16:32:41</sys_updated_on>
+        <sys_updated_on>2024-08-13 20:12:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

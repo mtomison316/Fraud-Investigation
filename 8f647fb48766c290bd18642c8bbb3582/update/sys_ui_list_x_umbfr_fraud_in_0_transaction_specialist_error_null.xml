@@ -2,78 +2,18 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_umbfr_fraud_in_0_transaction_specialist_error" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_created_on</element>
-            <list_id display_value="x_umbfr_fraud_in_0_transaction_specialist_error" element="NULL" name="x_umbfr_fraud_in_0_transaction_specialist_error" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d5bd13711bdb0210f4eea9bfbd4bcbec</list_id>
+            <element>errors</element>
+            <list_id display_value="x_umbfr_fraud_in_0_transaction_specialist_error" element="NULL" name="x_umbfr_fraud_in_0_transaction_specialist_error" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2d58b14e87e70e50bd18642c8bbb35ce</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-10 20:29:46</sys_created_on>
-            <sys_id>59bd13711bdb0210f4eea9bfbd4bcbed</sys_id>
+            <sys_created_on>2024-07-23 18:01:02</sys_created_on>
+            <sys_id>a558b14e87e70e50bd18642c8bbb35cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-10 20:29:46</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>sys_created_by</element>
-            <list_id display_value="x_umbfr_fraud_in_0_transaction_specialist_error" element="NULL" name="x_umbfr_fraud_in_0_transaction_specialist_error" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d5bd13711bdb0210f4eea9bfbd4bcbec</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>1</position>
-            <sum>false</sum>
-            <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-10 20:29:46</sys_created_on>
-            <sys_id>51bd13711bdb0210f4eea9bfbd4bcbee</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-10 20:29:46</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>sys_updated_on</element>
-            <list_id display_value="x_umbfr_fraud_in_0_transaction_specialist_error" element="NULL" name="x_umbfr_fraud_in_0_transaction_specialist_error" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d5bd13711bdb0210f4eea9bfbd4bcbec</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>2</position>
-            <sum>false</sum>
-            <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-10 20:29:46</sys_created_on>
-            <sys_id>55bd13711bdb0210f4eea9bfbd4bcbee</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-10 20:29:46</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>sys_updated_by</element>
-            <list_id display_value="x_umbfr_fraud_in_0_transaction_specialist_error" element="NULL" name="x_umbfr_fraud_in_0_transaction_specialist_error" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d5bd13711bdb0210f4eea9bfbd4bcbec</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>3</position>
-            <sum>false</sum>
-            <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-10 20:29:46</sys_created_on>
-            <sys_id>59bd13711bdb0210f4eea9bfbd4bcbee</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-10 20:29:46</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>sys_mod_count</element>
-            <list_id display_value="x_umbfr_fraud_in_0_transaction_specialist_error" element="NULL" name="x_umbfr_fraud_in_0_transaction_specialist_error" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">d5bd13711bdb0210f4eea9bfbd4bcbec</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>4</position>
-            <sum>false</sum>
-            <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-10 20:29:46</sys_created_on>
-            <sys_id>d1bd97b11bdb0210f4eea9bfbd4bcb68</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-10 20:29:46</sys_updated_on>
+            <sys_updated_on>2024-07-23 18:01:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -87,10 +27,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-07-10 20:29:46</sys_created_on>
+            <sys_created_on>2024-07-23 18:01:02</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>d5bd13711bdb0210f4eea9bfbd4bcbec</sys_id>
+            <sys_id>2d58b14e87e70e50bd18642c8bbb35ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_umbfr_fraud_in_0_transaction_specialist_error</sys_name>
             <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
@@ -99,7 +39,7 @@
             <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
             <sys_update_name>sys_ui_list_x_umbfr_fraud_in_0_transaction_specialist_error_null</sys_update_name>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-07-10 20:29:46</sys_updated_on>
+            <sys_updated_on>2024-07-23 18:01:02</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="claim_details" table="x_umbfr_fraud_in_0_fraud_claims">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Claim details</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>claim_details</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>1000</max_length>
+        <name>x_umbfr_fraud_in_0_fraud_claims</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-06-14 16:03:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fe77a4e187b64250bd18642c8bbb355b</sys_id>
+        <sys_name>Claim details</sys_name>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_update_name>sys_dictionary_x_umbfr_fraud_in_0_fraud_claims_claim_details</sys_update_name>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-06-14 16:03:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</application>
+        <comments/>
+        <file_path/>
+        <instance_id>a5c8766d0a0a3c7b0064b5ab29d491bd</instance_id>
+        <instance_name>umbdev</instance_name>
+        <name>sys_dictionary_x_umbfr_fraud_in_0_fraud_claims_claim_details</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="claim_details" table="x_umbfr_fraud_in_0_fraud_claims"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Claim details</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>claim_details</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>1000</max_length><name>x_umbfr_fraud_in_0_fraud_claims</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-06-14 16:03:44</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>fe77a4e187b64250bd18642c8bbb355b</sys_id><sys_name>Claim details</sys_name><sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope><sys_update_name>sys_dictionary_x_umbfr_fraud_in_0_fraud_claims_claim_details</sys_update_name><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-06-14 16:03:46</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1036331523</payload_hash>
+        <record_name>Fraud Claims.Claim details</record_name>
+        <reverted_from/>
+        <source>8b647fb48766c290bd18642c8bbb35c5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-06-14 16:03:46</sys_created_on>
+        <sys_id>9377e4e187b64250bd18642c8bbb3545</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190177d9c230000001</sys_recorded_at>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-06-14 16:03:46</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>d777e4e11fb642503c3b778044535544</update_guid>
+        <update_guid_history>d777e4e11fb642503c3b778044535544:1036331523,8377e4e1eab64250c41f3fa3ef766926:1874581440</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-08-13 20:00:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>8616ac66145c49f2a2d4fc19ddbb9d61</sys_id>
+        <sys_metadata>fe77a4e187b64250bd18642c8bbb355b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claim details</sys_name>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_parent display_value="Fraud Claims">31a5bb788766c290bd18642c8bbb35b2</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_scope_delete display_value="">4fb75f2f386d4846a0296d28392f00c4</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_umbfr_fraud_in_0_fraud_claims_claim_details</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_umbfr_fraud_in_0_fraud_claims_claim_details">9377e4e187b64250bd18642c8bbb3545</sys_update_version>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-08-13 20:00:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
