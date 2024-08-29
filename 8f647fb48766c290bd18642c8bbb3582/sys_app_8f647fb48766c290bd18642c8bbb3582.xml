@@ -32,15 +32,15 @@
         <sys_created_by>MXT011</sys_created_by>
         <sys_created_on>2024-05-31 12:48:00</sys_created_on>
         <sys_id>8f647fb48766c290bd18642c8bbb3582</sys_id>
-        <sys_mod_count>26</sys_mod_count>
-        <sys_updated_by>UMBPipeline_SA</sys_updated_by>
-        <sys_updated_on>2024-08-29 14:33:00</sys_updated_on>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-08-29 14:57:08</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.13</version>
+        <version>1.0.14</version>
     </sys_app>
 </record_update>

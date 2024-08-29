@@ -99,8 +99,13 @@
         <element label="Recovery date #3" max_length="40" name="recovery_date_3" type="glide_date"/>
         <element choice="1" default="open" label="State" max_length="40" name="state" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Active" sequence="2" value="active"/>
+                <element inactive_on_update="false" label="Mutual funds" sequence="4" value="mutual_funds"/>
                 <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
                 <element inactive_on_update="false" label="Closed" sequence="1" value="closed"/>
+                <element inactive_on_update="false" label="Double indemnity" sequence="3" value="double_indemnity"/>
+                <element inactive_on_update="false" label="UMB WOE" sequence="6" value="umb_woe"/>
+                <element inactive_on_update="false" label="Paperwork Only" sequence="5" value="paperwork_only"/>
             </choice>
         </element>
         <element choice="1" label="Signature card" max_length="40" name="signature_card" type="choice">
