@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="31a5bb788766c290bd18642c8bbb35b2" label="Fraud Claims" max_length="40" name="x_umbfr_fraud_in_0_fraud_claims" type="collection">
-        <element hint="When it's all said and done, what if any, amount was lost by UMB or customer/client" label="Actual loss" max_length="20" name="actual_loss" type="currency"/>
+        <element hint="Amount that was lost (what we booked) at the time of closing the case. This includes both UMB and customer/client liability." label="Actual (NET) loss" max_length="20" name="actual_loss" type="currency"/>
         <element label="Recovery date #1" max_length="40" name="recovery_date" type="glide_date"/>
         <element choice="1" label="Oasis" max_length="40" name="oasis" type="choice">
             <choice>
@@ -37,7 +37,7 @@
             </choice>
         </element>
         <element label="Work notes" max_length="40" name="work_notes" type="journal"/>
-        <element hint="Not a loss but, what we stopped from leaving the bank or returned timely" label="Prevented loss" max_length="20" name="prevented_loss" type="currency"/>
+        <element hint="Amount of attempted fraud that we prevented from leaving the bank. Includes timely check returns and ACH transactions returned timely." label="Prevented loss" max_length="20" name="prevented_loss" type="currency"/>
         <element label="Prevention action" max_length="40" name="preventio_action" type="string"/>
         <element label="Multiple recovery amounts" max_length="40" name="multiple_recovery_amounts" type="boolean"/>
         <element label="Type of Fraud" max_length="32" name="type_of_fraud" reference="x_umbfr_fraud_in_0_fraud_types" type="reference"/>
@@ -66,7 +66,7 @@
         </element>
         <element label="Customer" max_length="40" name="customer" type="string"/>
         <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" reference_qual="nameINEFO Claims,EFO Prevention" reference_qual_condition="nameINEFO Claims,EFO Prevention" type="reference"/>
-        <element label="Recovery amount #1" max_length="20" name="recovery_amount" type="currency"/>
+        <element hint="Amount received from the BOFD." label="Recovery amount #1" max_length="20" name="recovery_amount" type="currency"/>
         <element choice="1" label="Outstanding paperwork" max_length="40" name="outstanding_paperwork" type="glide_list">
             <choice>
                 <element inactive_on_update="false" label="Police Report" sequence="3" value="Police Report"/>
@@ -82,7 +82,7 @@
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
             </choice>
         </element>
-        <element hint="Potential loss that could have resulted if this fraud was not reported or caught" label="Loss Exposure Amount" max_length="20" name="loss_exposure_amount" read_only="true" type="currency"/>
+        <element hint="Our claim amount. The amount reported to the BOFD for recovery attempts.  Actual Loss (NET) + Recovery Amount." label="Gross Fraud Amount" max_length="20" name="loss_exposure_amount" read_only="true" type="currency"/>
         <element choice="1" label="Requires paperwork" max_length="40" name="requires_paperwork" type="choice">
             <choice>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
