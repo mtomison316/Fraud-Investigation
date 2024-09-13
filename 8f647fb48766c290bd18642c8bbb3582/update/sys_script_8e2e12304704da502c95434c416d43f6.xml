@@ -9,7 +9,7 @@
         <action_query>false</action_query>
         <action_run_at>server</action_run_at>
         <action_update>true</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <application/>
@@ -44,7 +44,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>8e2e12304704da502c95434c416d43f6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Loss exposure calculation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
         <sys_update_name>sys_script_8e2e12304704da502c95434c416d43f6</sys_update_name>
         <sys_updated_by>MXT011</sys_updated_by>
-        <sys_updated_on>2024-09-04 13:17:25</sys_updated_on>
+        <sys_updated_on>2024-09-05 21:17:30</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-09-13 17:03:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>47dd51b247249a10d6d2c45c416d439d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_umbfr_fraud_in_0_branch_mutual_fund.x_umbfr_fraud_in_0.Fraud Reporting</sys_name>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_security_acl display_value="x_umbfr_fraud_in_0_branch_mutual_fund">c3dd51b247249a10d6d2c45c416d4399</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_47dd51b247249a10d6d2c45c416d439d</sys_update_name>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-09-13 17:03:36</sys_updated_on>
+        <sys_user_role display_value="x_umbfr_fraud_in_0.Fraud Reporting" name="x_umbfr_fraud_in_0.Fraud Reporting">7edd11b247249a10d6d2c45c416d43dd</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

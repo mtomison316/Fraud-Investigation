@@ -82,7 +82,7 @@
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
             </choice>
         </element>
-        <element hint="Our claim amount. The amount reported to the BOFD for recovery attempts.  Actual Loss (NET) + Recovery Amount." label="Gross Fraud Amount" max_length="20" name="loss_exposure_amount" read_only="true" type="currency"/>
+        <element hint="Our claim amount. The amount reported to the BOFD for recovery attempts.  Actual Loss (NET) + Recovery Amount." label="Gross Fraud Amount" max_length="20" name="loss_exposure_amount" type="currency"/>
         <element choice="1" label="Requires paperwork" max_length="40" name="requires_paperwork" type="choice">
             <choice>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
