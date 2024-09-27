@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scheduled_data_export">
+    <scheduled_data_export action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <delta_on_or_after>sys_updated_on</delta_on_or_after>
+        <enable_delta_export>false</enable_delta_export>
+        <entered_time/>
+        <export_set display_value="Fraud Claims Export">b26eee5847789650d6d2c45c416d43cd</export_set>
+        <last_export_run>2024-09-18 14:49:17</last_export_run>
+        <max_drift/>
+        <name>Fraud Claims Export</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <order/>
+        <parent/>
+        <post_script/>
+        <post_script_bool>false</post_script_bool>
+        <pre_script/>
+        <pre_script_bool>false</pre_script_bool>
+        <run_as display_value="Fraud Investigations">cc46772747ac1250d6d2c45c416d4329</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2024-09-18 14:47:25</run_start>
+        <run_time>1970-01-01 12:00:00</run_time>
+        <run_type>monthly</run_type>
+        <sys_class_name>scheduled_data_export</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-09-18 14:48:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3caee69847789650d6d2c45c416d43e1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Fraud Claims Export</sys_name>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_update_name>scheduled_data_export_3caee69847789650d6d2c45c416d43e1</sys_update_name>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:49:32</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </scheduled_data_export>
+</record_update>
