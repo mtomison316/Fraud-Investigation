@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-10-02 20:20:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>af118c49474d5650d6d2c45c416d4393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_umbfr_fraud_in_0_fraud_types.x_umbfr_fraud_in_0.user</sys_name>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_security_acl display_value="x_umbfr_fraud_in_0_fraud_types">cb114c49474d5650d6d2c45c416d43d6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_af118c49474d5650d6d2c45c416d4393</sys_update_name>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-10-02 20:20:25</sys_updated_on>
+        <sys_user_role display_value="x_umbfr_fraud_in_0.user" name="x_umbfr_fraud_in_0.user">df647fb48766c290bd18642c8bbb35d0</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</application>
+        <comments/>
+        <file_path/>
+        <instance_id>a5c8766d0a0a3c7b0064b5ab29d491bd</instance_id>
+        <instance_name>umbdev</instance_name>
+        <name>sys_security_acl_role_af118c49474d5650d6d2c45c416d4393</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-02 20:20:25</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>af118c49474d5650d6d2c45c416d4393</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_umbfr_fraud_in_0_fraud_types.x_umbfr_fraud_in_0.user</sys_name><sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope><sys_security_acl display_value="x_umbfr_fraud_in_0_fraud_types">cb114c49474d5650d6d2c45c416d43d6</sys_security_acl><sys_update_name>sys_security_acl_role_af118c49474d5650d6d2c45c416d4393</sys_update_name><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-02 20:20:25</sys_updated_on><sys_user_role display_value="x_umbfr_fraud_in_0.user" name="x_umbfr_fraud_in_0.user">df647fb48766c290bd18642c8bbb35d0</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-949499329</payload_hash>
+        <record_name>x_umbfr_fraud_in_0_fraud_types.x_umbfr_fraud_in_0.user</record_name>
+        <reverted_from/>
+        <source>d9f1ea1b473c1a10d6d2c45c416d43d4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-10-02 20:20:25</sys_created_on>
+        <sys_id>23118c49474d5650d6d2c45c416d4397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1924ee41da20000001</sys_recorded_at>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-10-02 20:20:25</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>e3118c49c84d565036c6df06bbe68596</update_guid>
+        <update_guid_history>e3118c49c84d565036c6df06bbe68596:-949499329</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2024-10-02 15:28:21">e3e28c4d474d5650d6d2c45c416d43d3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-10-02 20:28:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>10e7df83cb324c3498d4beed52693890</sys_id>
+        <sys_metadata>af118c49474d5650d6d2c45c416d4393</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_umbfr_fraud_in_0_fraud_types.x_umbfr_fraud_in_0.user</sys_name>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_scope_delete display_value="">4fb75f2f386d4846a0296d28392f00c4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_af118c49474d5650d6d2c45c416d4393</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_af118c49474d5650d6d2c45c416d4393">23118c49474d5650d6d2c45c416d4397</sys_update_version>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-10-02 20:28:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

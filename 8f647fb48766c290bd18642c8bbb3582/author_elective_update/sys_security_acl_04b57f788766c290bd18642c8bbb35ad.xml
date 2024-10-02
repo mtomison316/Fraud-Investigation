@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow read for records in x_umbfr_fraud_in_0_fraud_claims, for users with roles (x_umbfr_fraud_in_0.Fraud Reporting, x_umbfr_fraud_in_0.user, x_umbfr_fraud_in_0.admin).</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_umbfr_fraud_in_0_fraud_claims</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-05-31 12:53:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>04b57f788766c290bd18642c8bbb35ad</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_umbfr_fraud_in_0_fraud_claims</sys_name>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_update_name>sys_security_acl_04b57f788766c290bd18642c8bbb35ad</sys_update_name>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-09-17 20:51:45</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</application>
+        <comments/>
+        <file_path/>
+        <instance_id>a5c8766d0a0a3c7b0064b5ab29d491bd</instance_id>
+        <instance_name>umbdev</instance_name>
+        <name>sys_security_acl_04b57f788766c290bd18642c8bbb35ad</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>true</advanced><condition/><description>Allow read for records in x_umbfr_fraud_in_0_fraud_claims, for users with roles (x_umbfr_fraud_in_0.Fraud Reporting, x_umbfr_fraud_in_0.user, x_umbfr_fraud_in_0.admin).</description><local_or_existing>Local</local_or_existing><name>x_umbfr_fraud_in_0_fraud_claims</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-05-31 12:53:32</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>04b57f788766c290bd18642c8bbb35ad</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_umbfr_fraud_in_0_fraud_claims</sys_name><sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope><sys_update_name>sys_security_acl_04b57f788766c290bd18642c8bbb35ad</sys_update_name><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-09-17 20:51:45</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1696617440</payload_hash>
+        <record_name>x_umbfr_fraud_in_0_fraud_claims</record_name>
+        <reverted_from/>
+        <source>7b4e157247249a10d6d2c45c416d43f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-09-17 20:51:45</sys_created_on>
+        <sys_id>8078b20847381650d6d2c45c416d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19201c1695b0000001</sys_recorded_at>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-09-17 20:51:45</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>4078bac4a4381650aeec85b44b4e6878</update_guid>
+        <update_guid_history>4078bac4a4381650aeec85b44b4e6878:1696617440,e8f7fe84d938165065b56a6ecb6e39e1:-870380889,8cb57f784c66c290e887089595e25caf:872092855</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-10-02 20:22:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>f01da004d6da45f09ab978fe82ea5e90</sys_id>
+        <sys_metadata>04b57f788766c290bd18642c8bbb35ad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_umbfr_fraud_in_0_fraud_claims</sys_name>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_parent display_value="x_umbfr_fraud_in_0_fraud_claims">8ea5bb788766c290bd18642c8bbb35cc</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_scope_delete display_value="">4fb75f2f386d4846a0296d28392f00c4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_04b57f788766c290bd18642c8bbb35ad</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_04b57f788766c290bd18642c8bbb35ad">8078b20847381650d6d2c45c416d4364</sys_update_version>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-10-02 20:22:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

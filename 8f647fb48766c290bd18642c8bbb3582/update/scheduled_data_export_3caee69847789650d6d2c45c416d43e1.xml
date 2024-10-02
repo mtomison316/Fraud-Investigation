@@ -8,7 +8,7 @@
         <enable_delta_export>false</enable_delta_export>
         <entered_time/>
         <export_set display_value="Fraud Claims Export">b26eee5847789650d6d2c45c416d43cd</export_set>
-        <last_export_run>2024-09-18 14:49:17</last_export_run>
+        <last_export_run>2024-10-01 11:00:01</last_export_run>
         <max_drift/>
         <name>Fraud Claims Export</name>
         <offset/>
@@ -32,15 +32,15 @@
         <sys_created_on>2024-09-18 14:48:42</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3caee69847789650d6d2c45c416d43e1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Fraud Claims Export</sys_name>
         <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
         <sys_update_name>scheduled_data_export_3caee69847789650d6d2c45c416d43e1</sys_update_name>
-        <sys_updated_by>MXT011</sys_updated_by>
-        <sys_updated_on>2024-09-18 14:49:32</sys_updated_on>
+        <sys_updated_by>umbfraudsa</sys_updated_by>
+        <sys_updated_on>2024-10-01 11:00:01</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </scheduled_data_export>
