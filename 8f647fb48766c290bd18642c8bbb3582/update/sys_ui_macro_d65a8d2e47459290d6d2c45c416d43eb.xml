@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <category>general</category>
+        <description>Fetches the angular checklist content to display on form</description>
+        <media_type/>
+        <name>checklist_template</name>
+        <scoped_name/>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-10-07 17:31:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d65a8d2e47459290d6d2c45c416d43eb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>checklist_template</sys_name>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_update_name>sys_ui_macro_d65a8d2e47459290d6d2c45c416d43eb</sys_update_name>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-10-07 17:39:31</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g:inline template="inline_checklist_template.xml"/>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

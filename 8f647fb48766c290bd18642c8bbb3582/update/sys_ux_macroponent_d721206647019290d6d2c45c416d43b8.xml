@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>component</category>
+        <component_dependencies/>
+        <composition>[]</composition>
+        <da_relay_models/>
+        <data/>
+        <description/>
+        <dispatched_events>d345d2f58c200761ceb4c362b6e0affb,6b82df0faa7f94561a4e8ccf7a32c9bf,a880e582fd757b7503b0562e375b9ae7,4036c9f021d9918a18439bdcd7371d82,208c5b83f3a8d6f3af8537a51328bcfe</dispatched_events>
+        <events/>
+        <ext_controller_dep/>
+        <extends/>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings/>
+        <layout>{}</layout>
+        <macroponent_dependencies/>
+        <name>Checklist</name>
+        <output_prop_mapping/>
+        <props>[{"name":"prefixType","label":"Prefixes","fieldType":"choice","readOnly":false,"typeMetadata":{"choices":[{"label":"None","value":"none"},{"label":"Numeric","value":"numeric"},{"label":"Alphabetic","value":"alphabetic"}],"schema":{"type":"string","enum":["none","numeric","alphabetic"]}},"defaultValue":"none","description":"Determines if checkboxes will be ordered, and provides options for numeric or alphabetic prefixes","valueType":"string","mandatory":false},{"name":"checklistData","label":"Checkbox items","fieldType":"json","typeMetadata":{"schema":{"type":"array","items":{"type":"object","properties":{"itemId":{"type":"string"},"checked":{"type":"boolean"},"required":{"type":"boolean"},"disabled":{"type":"boolean"},"readonly":{"type":"boolean"},"invalid":{"type":"boolean"},"order":{"type":"number"},"label":{"type":"string"},"hasLink":{"type":"boolean"},"errorMsgForLabel":{"type":"string"},"link":{"type":"object","properties":{"url":{"type":"string"},"text":{"type":"string"},"errorMsgForLink":{"type":"string"}}}},"required":["checked","itemId"]}}},"defaultValue":"[{\"order\":0,\"checked\":false,\"itemId\":\"checkbox_0\",\"required\":true,\"label\":\"this is item 0\",\"hasLink\":true,\"errorMsgForLabel\":\"\",\"link\":{\"text\":\"sample link 0\",\"url\":\"javascript:void(0)\",\"errorMsgForLink\":\"\"}},{\"order\":1,\"checked\":false,\"itemId\":\"checkbox_1\",\"label\":\"this is item 1\",\"hasLink\":true,\"errorMsgForLabel\":\"\",\"link\":{\"text\":\"sample link 1\",\"url\":\"javascript:void(0)\",\"errorMsgForLink\":\"\"}},{\"order\":2,\"checked\":false,\"itemId\":\"checkbox_2\",\"label\":\"this is item 2\",\"hasLink\":true,\"errorMsgForLabel\":\"\",\"link\":{\"text\":\"sample link 2\",\"url\":\"javascript:void(0)\",\"errorMsgForLink\":\"\"}},{\"order\":3,\"checked\":false,\"itemId\":\"checkbox_3\",\"label\":\"this is item 3\",\"hasLink\":true,\"errorMsgForLabel\":\"\",\"link\":{\"text\":\"sample link 3\",\"url\":\"javascript:void(0)\",\"errorMsgForLink\":\"\"}}]","description":"Presents objects for configuration of the checkbox items in the checklist","valueType":"string"},{"name":"size","label":"Size","fieldType":"choice","readOnly":false,"typeMetadata":{"choices":[{"label":"Small","value":"sm"},{"label":"Medium","value":"md"}],"schema":{"type":"string","enum":["sm","md"]}},"defaultValue":"md","selectable":false,"valueType":"string","mandatory":false},{"name":"opensWindow","label":"Open links in a new window","fieldType":"boolean","typeMetadata":{"schema":{"type":"boolean"}},"defaultValue":false,"description":"Opens link in a new window or tab (depending on user's browser configuration). \"Link opens in new window\" is announced to assistive technology users","valueType":"string"},{"name":"emptyStateTitle","label":"Empty state title","fieldType":"string","typeMetadata":{"schema":{"type":"string"}},"defaultValue":"No items in checklist","description":"Primary text to display in the empty state message.","valueType":"string"},{"name":"emptyStateMsg","label":"Empty state message","fieldType":"string","typeMetadata":{"schema":{"type":"string"}},"defaultValue":"","description":"Secondary text to display in the empty state message.","valueType":"string"},{"name":"allowEditing","label":"Allow editing","fieldType":"boolean","typeMetadata":{"schema":{"type":"boolean"}},"defaultValue":false,"description":"When true, the user can edit the checklist","valueType":"string"},{"name":"isEditMode","label":"Show edit mode","fieldType":"boolean","typeMetadata":{"schema":{"type":"boolean"}},"defaultValue":false,"description":"When true, the checklist loads in edit mode","valueType":"string"},{"name":"showLoadingSpinner","label":"Show loading spinner","fieldType":"boolean","typeMetadata":{"schema":{"type":"boolean"}},"defaultValue":false,"description":"Displayed after the save action is selected, while the checklist is saving","valueType":"string"},{"name":"disableAddLink","label":"Disable add link","fieldType":"boolean","typeMetadata":{"schema":{"type":"boolean"}},"defaultValue":false,"description":"When set to true, will disable add link option in edit mode","valueType":"string"}]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component display_value="now-checklist">b1f7789694acd573b8f9329ec181fd04</root_component>
+        <root_component_config>{"prefixType":"@context/prefixType","checklistData":"@context/checklistData","size":"@context/size","opensWindow":"@context/opensWindow","emptyStateTitle":"@context/emptyStateTitle","emptyStateMsg":"@context/emptyStateMsg","allowEditing":"@context/allowEditing","isEditMode":"@context/isEditMode","showLoadingSpinner":"@context/showLoadingSpinner","disableAddLink":"@context/disableAddLink"}</root_component_config>
+        <root_component_definition>{"availableSlots":[]}</root_component_definition>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-10-07 14:32:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d721206647019290d6d2c45c416d43b8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Checklist</sys_name>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_update_name>sys_ux_macroponent_d721206647019290d6d2c45c416d43b8</sys_update_name>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-10-07 15:55:21</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

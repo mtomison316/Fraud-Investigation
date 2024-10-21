@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <category>general</category>
+        <description>Macro for checklist component.</description>
+        <media_type/>
+        <name>checklist_body_macro</name>
+        <scoped_name/>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-10-07 17:36:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c27b09ee47459290d6d2c45c416d4364</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>checklist_body_macro</sys_name>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_update_name>sys_ui_macro_c27b09ee47459290d6d2c45c416d4364</sys_update_name>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-10-07 17:39:31</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g2:evaluate>
+                var isBrowserSupported = (GlideVTBCompatibility.getCompatibility() != 'block');
+                if (isBrowserSupported) {
+                        var sysID = current.getUniqueValue();
+                        var tableName = current.getTableName();
+                        var hasWrite = current.short_description.canWrite();
+						var checklist = new GlideRecord("checklist");
+						var checklistRecord = '';
+						checklist.addQuery("document", sysID);
+						checklist.addQuery("table", tableName);
+						checklist.query();
+
+						// if found, find checklist items
+						if (checklist.next()) {
+							checklistRecord = checklist.sys_id;
+						}
+                }
+   </g2:evaluate>
+	
+   <g:inline template="checklist_body.xml" write="$[hasWrite]" record="$[sysID]" table="$[tableName]" checklist="$[checklistRecord]"/>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

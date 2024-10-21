@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="b3cb182a47cd5290d6d2c45c416d433f" sys_domain="global" table="x_umbfr_fraud_in_0_fraud_claims" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inline_checklist_macro.xml</element>
+            <position>0</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>88db182a47cd5290d6d2c45c416d438e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Checklist">193b94e647cd5290d6d2c45c416d43e6</sys_ui_formatter>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>c4db182a47cd5290d6d2c45c416d438f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>2</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>ccdb182a47cd5290d6d2c45c416d438f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>3</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>c4db182a47cd5290d6d2c45c416d4390</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>line_of_business</element>
+            <position>4</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>ccdb182a47cd5290d6d2c45c416d4390</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ibis_fund</element>
+            <position>5</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>c4db182a47cd5290d6d2c45c416d4391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status_update</element>
+            <position>6</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>ccdb182a47cd5290d6d2c45c416d4391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>c4db182a47cd5290d6d2c45c416d4392</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>investigation_regions</element>
+            <position>8</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>ccdb182a47cd5290d6d2c45c416d4392</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_region</element>
+            <position>9</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>c4db182a47cd5290d6d2c45c416d4393</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>ccdb182a47cd5290d6d2c45c416d4393</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>11</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>8cdb182a47cd5290d6d2c45c416d43a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requires_paperwork</element>
+            <position>12</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>84db182a47cd5290d6d2c45c416d43a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>13</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>8cdb182a47cd5290d6d2c45c416d43a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>outstanding_paperwork</element>
+            <position>14</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>84db182a47cd5290d6d2c45c416d43a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>15</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>8cdb182a47cd5290d6d2c45c416d43a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>16</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>94db182a47cd5290d6d2c45c416d43a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>oasis</element>
+            <position>17</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>9cdb182a47cd5290d6d2c45c416d43a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reg_e</element>
+            <position>18</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>94db182a47cd5290d6d2c45c416d43a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>online_banking_access_disabled</element>
+            <position>19</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>9cdb182a47cd5290d6d2c45c416d43a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>20</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>94db182a47cd5290d6d2c45c416d43a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>signature_card</element>
+            <position>21</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>9cdb182a47cd5290d6d2c45c416d43a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sar_cfi</element>
+            <position>22</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>94db182a47cd5290d6d2c45c416d43a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>confirmed_fraud</element>
+            <position>23</position>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+            <sys_id>9cdb182a47cd5290d6d2c45c416d43a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_umbfr_fraud_in_0_fraud_claims</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-10-07 14:07:56</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>b3cb182a47cd5290d6d2c45c416d433f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_umbfr_fraud_in_0_fraud_claims</sys_name>
+            <sys_overrides display_value="">global</sys_overrides>
+            <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+            <sys_update_name>sys_ui_section_b3cb182a47cd5290d6d2c45c416d433f</sys_update_name>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:07:56</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</application>
+        <comments/>
+        <file_path/>
+        <instance_id>a5c8766d0a0a3c7b0064b5ab29d491bd</instance_id>
+        <instance_name>umbdev</instance_name>
+        <name>sys_ui_section_b3cb182a47cd5290d6d2c45c416d433f</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="b3cb182a47cd5290d6d2c45c416d433f" sys_domain="global" table="x_umbfr_fraud_in_0_fraud_claims" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>inline_checklist_macro.xml</element><position>0</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>88db182a47cd5290d6d2c45c416d438e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Checklist">193b94e647cd5290d6d2c45c416d43e6</sys_ui_formatter><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>c4db182a47cd5290d6d2c45c416d438f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>2</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>ccdb182a47cd5290d6d2c45c416d438f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>3</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>c4db182a47cd5290d6d2c45c416d4390</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>line_of_business</element><position>4</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>ccdb182a47cd5290d6d2c45c416d4390</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>ibis_fund</element><position>5</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>c4db182a47cd5290d6d2c45c416d4391</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>status_update</element><position>6</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>ccdb182a47cd5290d6d2c45c416d4391</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>7</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>c4db182a47cd5290d6d2c45c416d4392</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>investigation_regions</element><position>8</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>ccdb182a47cd5290d6d2c45c416d4392</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>other_region</element><position>9</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>c4db182a47cd5290d6d2c45c416d4393</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>10</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>ccdb182a47cd5290d6d2c45c416d4393</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>11</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>8cdb182a47cd5290d6d2c45c416d43a0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>requires_paperwork</element><position>12</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>84db182a47cd5290d6d2c45c416d43a1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>13</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>8cdb182a47cd5290d6d2c45c416d43a1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>outstanding_paperwork</element><position>14</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>84db182a47cd5290d6d2c45c416d43a2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>15</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>8cdb182a47cd5290d6d2c45c416d43a2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>16</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>94db182a47cd5290d6d2c45c416d43a3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>oasis</element><position>17</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>9cdb182a47cd5290d6d2c45c416d43a3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>reg_e</element><position>18</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>94db182a47cd5290d6d2c45c416d43a4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>online_banking_access_disabled</element><position>19</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>9cdb182a47cd5290d6d2c45c416d43a4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>20</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>94db182a47cd5290d6d2c45c416d43a5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>signature_card</element><position>21</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>9cdb182a47cd5290d6d2c45c416d43a5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sar_cfi</element><position>22</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>94db182a47cd5290d6d2c45c416d43a6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>confirmed_fraud</element><position>23</position><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:57</sys_created_on><sys_id>9cdb182a47cd5290d6d2c45c416d43a6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_umbfr_fraud_in_0_fraud_claims" sys_domain="global" view="Default view">b3cb182a47cd5290d6d2c45c416d433f</sys_ui_section><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_umbfr_fraud_in_0_fraud_claims</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-07 14:07:56</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>b3cb182a47cd5290d6d2c45c416d433f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_umbfr_fraud_in_0_fraud_claims</sys_name><sys_overrides display_value="">global</sys_overrides><sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope><sys_update_name>sys_ui_section_b3cb182a47cd5290d6d2c45c416d433f</sys_update_name><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-07 14:07:56</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>940459239</payload_hash>
+        <record_name>Fraud Claims</record_name>
+        <reverted_from/>
+        <source>c80d100147419650d6d2c45c416d4318</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-10-07 14:07:57</sys_created_on>
+        <sys_id>18db182a47cd5290d6d2c45c416d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192674ee8dc0000001</sys_recorded_at>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:07:57</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>9cdb182a1acd52904789ccb8a7bf84a9</update_guid>
+        <update_guid_history>9cdb182a1acd52904789ccb8a7bf84a9:940459239</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-10-07 14:10:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>05de013183eb41c0acfa0439616ee391</sys_id>
+        <sys_metadata>b3cb182a47cd5290d6d2c45c416d433f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_parent display_value="Fraud Claims">31a5bb788766c290bd18642c8bbb35b2</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_scope_delete display_value="">4fb75f2f386d4846a0296d28392f00c4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_b3cb182a47cd5290d6d2c45c416d433f</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_b3cb182a47cd5290d6d2c45c416d433f">18db182a47cd5290d6d2c45c416d43aa</sys_update_version>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:10:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

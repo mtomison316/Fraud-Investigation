@@ -40,35 +40,17 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Closed</label>
+            <label>Active</label>
             <language>en</language>
             <name>x_umbfr_fraud_in_0_fraud_claims</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>MXT011</sys_created_by>
-            <sys_created_on>2024-06-14 19:09:54</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-06-14 19:09:54</sys_updated_on>
-            <value>closed</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>state</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Active</label>
-            <language>en</language>
-            <name>x_umbfr_fraud_in_0_fraud_claims</name>
-            <sequence>2</sequence>
-            <synonyms/>
-            <sys_created_by>MXT011</sys_created_by>
             <sys_created_on>2024-08-29 14:39:29</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-08-29 14:39:29</sys_updated_on>
+            <sys_updated_on>2024-10-07 12:06:46</sys_updated_on>
             <value>active</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -79,14 +61,14 @@
             <label>Double indemnity</label>
             <language>en</language>
             <name>x_umbfr_fraud_in_0_fraud_claims</name>
-            <sequence>3</sequence>
+            <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>MXT011</sys_created_by>
             <sys_created_on>2024-08-29 14:39:29</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-08-29 14:39:29</sys_updated_on>
+            <sys_updated_on>2024-10-07 12:06:46</sys_updated_on>
             <value>double_indemnity</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -97,14 +79,14 @@
             <label>Mutual funds</label>
             <language>en</language>
             <name>x_umbfr_fraud_in_0_fraud_claims</name>
-            <sequence>4</sequence>
+            <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>MXT011</sys_created_by>
             <sys_created_on>2024-08-29 14:39:29</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-08-29 14:39:29</sys_updated_on>
+            <sys_updated_on>2024-10-07 12:06:46</sys_updated_on>
             <value>mutual_funds</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -115,14 +97,14 @@
             <label>Paperwork Only</label>
             <language>en</language>
             <name>x_umbfr_fraud_in_0_fraud_claims</name>
-            <sequence>5</sequence>
+            <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>MXT011</sys_created_by>
             <sys_created_on>2024-08-29 14:39:29</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-08-29 14:39:29</sys_updated_on>
+            <sys_updated_on>2024-10-07 12:06:46</sys_updated_on>
             <value>paperwork_only</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -133,15 +115,33 @@
             <label>UMB WOE</label>
             <language>en</language>
             <name>x_umbfr_fraud_in_0_fraud_claims</name>
-            <sequence>6</sequence>
+            <sequence>5</sequence>
             <synonyms/>
             <sys_created_by>MXT011</sys_created_by>
             <sys_created_on>2024-08-29 14:39:29</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>MXT011</sys_updated_by>
-            <sys_updated_on>2024-08-29 14:39:29</sys_updated_on>
+            <sys_updated_on>2024-10-07 12:06:46</sys_updated_on>
             <value>umb_woe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed</label>
+            <language>en</language>
+            <name>x_umbfr_fraud_in_0_fraud_claims</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>MXT011</sys_created_by>
+            <sys_created_on>2024-06-14 19:09:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>MXT011</sys_updated_by>
+            <sys_updated_on>2024-10-07 12:06:46</sys_updated_on>
+            <value>closed</value>
         </sys_choice>
     </sys_choice>
 </record_update>

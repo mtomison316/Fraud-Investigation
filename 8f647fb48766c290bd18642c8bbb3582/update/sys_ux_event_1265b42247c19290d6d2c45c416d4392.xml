@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description>When user clicks cancel in editing mode</description>
+        <event_name>NOW_CHECKLIST#EDIT_CANCELLED</event_name>
+        <explicit_api_name/>
+        <interfaces>[]</interfaces>
+        <label>Edit cancelled - fraud</label>
+        <props>[
+    
+]</props>
+        <required_translations>[ ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-10-07 15:59:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1265b42247c19290d6d2c45c416d4392</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Edit cancelled - fraud</sys_name>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_update_name>sys_ux_event_1265b42247c19290d6d2c45c416d4392</sys_update_name>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-10-07 15:59:53</sys_updated_on>
+    </sys_ux_event>
+</record_update>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description>Everytime link text is clicked</description>
+        <event_name>NOW_CHECKLIST#ITEM_LINK_CLICKED</event_name>
+        <explicit_api_name/>
+        <interfaces>[]</interfaces>
+        <label>Item link clicked - fraud</label>
+        <props>[
+    {
+        "defaultValue": "{}",
+        "label": "Item",
+        "name": "item",
+        "typeMetadata": {
+            "schema": {
+                "properties": {
+                    "itemId": {
+                        "type": "string"
+                    },
+                    "link": {
+                        "properties": {
+                            "text": {
+                                "type": "string"
+                            },
+                            "url": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "Item",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-10-07 15:58:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e835f42247c19290d6d2c45c416d4384</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Item link clicked - fraud</sys_name>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_update_name>sys_ux_event_e835f42247c19290d6d2c45c416d4384</sys_update_name>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-10-07 15:58:58</sys_updated_on>
+    </sys_ux_event>
+</record_update>
