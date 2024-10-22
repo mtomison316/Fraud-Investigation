@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>multiple_accounts</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>UMB - Fraud Addt Acct Info</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   g_form.setSectionDisplay('additional_accountinformation', false);
+   if (g_form.getValue('multiple_accounts')== true) {
+	g_form.setSectionDisplay('additional_accountinformation', true);
+   }
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-10-22 20:40:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>a2654b1f4719de10d6d2c45c416d4377</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>UMB - Fraud Addt Acct Info</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_update_name>sys_script_client_a2654b1f4719de10d6d2c45c416d4377</sys_update_name>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-10-22 21:35:54</sys_updated_on>
+        <table>x_umbfr_fraud_in_0_fraud_investigations</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</application>
+        <comments/>
+        <file_path/>
+        <instance_id>a5c8766d0a0a3c7b0064b5ab29d491bd</instance_id>
+        <instance_name>umbdev</instance_name>
+        <name>sys_script_client_a2654b1f4719de10d6d2c45c416d4377</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;multiple_accounts&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;UMB - Fraud Addt Acct Info&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   g_form.setSectionDisplay('additional_accountinformation', false);
+   if (g_form.getValue('multiple_accounts')== true) {
+	g_form.setSectionDisplay('additional_accountinformation', true);
+   }
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;MXT011&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-22 20:40:56&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;a2654b1f4719de10d6d2c45c416d4377&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;UMB - Fraud Addt Acct Info&lt;/sys_name&gt;&lt;sys_overrides display_value=""&gt;global&lt;/sys_overrides&gt;&lt;sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0"&gt;8f647fb48766c290bd18642c8bbb3582&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Fraud Investigations"&gt;8f647fb48766c290bd18642c8bbb3582&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_a2654b1f4719de10d6d2c45c416d4377&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;MXT011&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-22 21:35:54&lt;/sys_updated_on&gt;&lt;table&gt;x_umbfr_fraud_in_0_fraud_investigations&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1873130157</payload_hash>
+        <record_name>UMB - Fraud Addt Acct Info</record_name>
+        <reverted_from/>
+        <source>fe94bd4747915e10d6d2c45c416d436e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-10-22 21:35:54</sys_created_on>
+        <sys_id>9c32df934799de10d6d2c45c416d43af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b62869de0000001</sys_recorded_at>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-10-22 21:35:54</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>9032df930299de100fe53c300c41ceaf</update_guid>
+        <update_guid_history>9032df930299de100fe53c300c41ceaf:-1873130157,61f11b932b99de1054d1772790eda4e5:-722903261,fbb15393f299de100e844d9a39232b37:-758995978,c4ec871bae59de10074afc31c038e9fc:-2014121718,d25c035bde59de1001381c2c496a6bad:-1688759049,c12bcf576b59de1043d93321ca764b3f:1099333689,889907d38459de100117428c5115603f:-362704051,c587cb13ce59de1050066b17ee88c904:-718666543,87950b1f8019de104019efd913d642ab:1869227344</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-10-22 21:47:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>200bddb496554a9fb2af15ed1f0d0799</sys_id>
+        <sys_metadata>a2654b1f4719de10d6d2c45c416d4377</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UMB - Fraud Addt Acct Info</sys_name>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_parent display_value="Fraud Investigations">1d4a15a247099290d6d2c45c416d4365</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_scope_delete display_value="">4fb75f2f386d4846a0296d28392f00c4</sys_scope_delete>
+        <sys_update_name>sys_script_client_a2654b1f4719de10d6d2c45c416d4377</sys_update_name>
+        <sys_update_version display_value="sys_script_client_a2654b1f4719de10d6d2c45c416d4377">9c32df934799de10d6d2c45c416d43af</sys_update_version>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-10-22 21:47:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

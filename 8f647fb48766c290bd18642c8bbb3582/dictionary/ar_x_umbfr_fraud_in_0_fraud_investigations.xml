@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="66ae912247419e502c95434c416d438f" label="Archive Fraud Investigations" max_length="40" name="ar_x_umbfr_fraud_in_0_fraud_investigations" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Acct number 2" max_length="40" name="acct_number_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Signature card" max_length="200" name="signature_card" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reg e" max_length="151" name="reg_e" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Recovery amount 3" max_length="40" name="recovery_amount_3" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Attachment changes" max_length="16777215" name="u_attachment_changes" type="journal_input"/>
         <element attributes="edge_encryption_enabled=true" label="Route reason" max_length="100" name="route_reason" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Comments" max_length="16777215" name="comments" type="journal_input"/>
@@ -8,6 +12,7 @@
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Group list" max_length="16777215" name="group_list" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="Correlation ID" max_length="160" name="correlation_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Work start" max_length="19" name="work_start" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Ibis fund" max_length="255" name="ibis_fund" type="string"/>
         <element label="Reassignment count" max_length="10" name="reassignment_count" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Business duration formatted" max_length="40" name="u_business_duration_formatted" type="string"/>
         <element attributes="edge_encryption_enabled=true" dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to" max_length="151" name="assigned_to" type="string" use_dependent_field="true"/>
@@ -15,6 +20,7 @@
         <element label="Time worked" max_length="19" name="time_worked" type="timer"/>
         <element attributes="edge_encryption_enabled=true" dependent="company" dependent_on_field="company" label="Location" max_length="255" name="location" type="string" use_dependent_field="true"/>
         <element label="User input" max_length="16777215" name="user_input" type="user_input"/>
+        <element label="Multiple accounts" max_length="3" name="multiple_accounts" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Archive restored" max_length="40" name="sys_archive_restored" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Calendar duration formatted" max_length="40" name="u_calendar_duration_formatted" type="string"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Number" max_length="40" name="number" type="string"/>
@@ -23,6 +29,7 @@
         <element label="Business duration" max_length="19" name="business_duration" type="glide_duration"/>
         <element attributes="edge_encryption_enabled=true" label="Follow up" max_length="19" name="follow_up" type="glide_date_time"/>
         <element label="Sys domain" max_length="32" name="sys_domain" type="domain_id"/>
+        <element attributes="edge_encryption_enabled=true" label="Follow u0" max_length="10" name="follow_u0" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Acct number" max_length="120" name="acct_number" type="string"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Additional assignee list" max_length="16777215" name="additional_assignee_list" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="Parent" max_length="40" name="parent" type="string"/>
@@ -31,12 +38,34 @@
         <element attributes="edge_encryption_enabled=true" label="Closed by" max_length="151" name="closed_by" type="string"/>
         <element label="SLA due" max_length="19" name="sla_due" type="due_date"/>
         <element attributes="edge_encryption_enabled=true" label="Delivery task" max_length="100" name="delivery_task" type="string"/>
+        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Outstanding paperwork" max_length="16777215" name="outstanding_paperwork" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="Update type" max_length="40" name="u_update_type" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Upon approval" max_length="40" name="upon_approval" type="string"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Skills" max_length="16777215" name="skills" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="Rejection goto" max_length="40" name="rejection_goto" type="string"/>
         <element label="Order" max_length="10" name="order" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Prevention action" max_length="128" name="prevention_action" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Recovery amount 1" max_length="40" name="recovery_amount_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Region" max_length="40" name="region" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Acct number 3" max_length="40" name="acct_number_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Prevented loss" max_length="40" name="prevented_loss" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Transaction specialist error" max_length="40" name="transaction_specialist_error" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Status update" max_length="16777215" name="status_update" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Prevention actio0" max_length="40" name="prevention_actio0" type="string"/>
+        <element label="Multiple recovery amounts" max_length="3" name="multiple_recovery_amounts" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:new GlideDateTime().getDisplayValue()" label="Archived" max_length="40" name="sys_archived" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Error reported" max_length="255" name="error_reported" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer" max_length="150" name="customer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Confirmed fraud" max_length="255" name="confirmed_fraud" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Acct number 5" max_length="40" name="acct_number_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Lob loss" max_length="40" name="lob_loss" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Recovery amount 2" max_length="40" name="recovery_amount_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other branch mf" max_length="255" name="other_branch_mf" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Recovery date 2" max_length="10" name="recovery_date_2" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Oasis" max_length="100" name="oasis" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Acct number 4" max_length="40" name="acct_number_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Requires paperwork" max_length="200" name="requires_paperwork" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Error" max_length="255" name="error" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Universal request" max_length="40" name="universal_request" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Task effective number" max_length="40" name="task_effective_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="16777215" name="description" type="string"/>
@@ -44,6 +73,7 @@
         <element attributes="edge_encryption_enabled=true" label="Closed at" max_length="19" name="closed_at" type="glide_date_time"/>
         <element label="Knowledge" max_length="3" name="knowledge" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Correlation display" max_length="100" name="correlation_display" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Gross fraud amount" max_length="40" name="gross_fraud_amount" type="string"/>
         <element label="Pci related" max_length="3" name="u_pci_related" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Sys class name" max_length="100" name="sys_class_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Assignment group" max_length="80" name="assignment_group" type="string"/>
@@ -59,6 +89,7 @@
         <element attributes="edge_encryption_enabled=true" label="Opened by" max_length="151" name="opened_by" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Due date" max_length="19" name="due_date" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Delivery plan" max_length="100" name="delivery_plan" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Branch mf" max_length="50" name="branch_mf" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Actual loss" max_length="40" name="actual_loss" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Service offering" max_length="255" name="service_offering" type="string"/>
         <element label="Active" max_length="3" name="active" type="boolean"/>
@@ -69,9 +100,19 @@
         <element attributes="edge_encryption_enabled=true" label="Expected start" max_length="19" name="expected_start" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Work end" max_length="19" name="work_end" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Business service" max_length="255" name="business_service" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Online banking access disabled" max_length="151" name="online_banking_access_disabled" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Line of business" max_length="40" name="line_of_business" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Upon reject" max_length="40" name="upon_reject" type="string"/>
         <element label="Variables" max_length="40" name="variables" type="variables"/>
         <element attributes="edge_encryption_enabled=true" label="Wf activity" max_length="100" name="wf_activity" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Type of fraud" max_length="40" name="type_of_fraud" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Payment avenue" max_length="128" name="payment_avenue" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Recovery date 3" max_length="10" name="recovery_date_3" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Recovery date 1" max_length="10" name="recovery_date_1" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Prevention escalation" max_length="40" name="prevention_escalation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sar cfi" max_length="200" name="sar_cfi" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Loss collection" max_length="255" name="loss_collection" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date paperwork received" max_length="10" name="date_paperwork_received" type="glide_date"/>
         <index name="index">
             <element name="number"/>
         </index>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>umb__fraud_inv_addt_acct_info</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>UMB - Fraud Inv Addt Acct Info</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-10-22 21:19:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>547e8b1f4759de10d6d2c45c416d439c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UMB - Fraud Inv Addt Acct Info</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_update_name>sys_hub_flow_547e8b1f4759de10d6d2c45c416d439c</sys_update_name>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-10-22 21:19:32</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="DELETE" query="document_key=547e8b1f4759de10d6d2c45c416d439c"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=547e8b1f4759de10d6d2c45c416d439c"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=547e8b1f4759de10d6d2c45c416d439c"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=547e8b1f4759de10d6d2c45c416d439c^sys_idNOT IN987e8b1f4759de10d6d2c45c416d439e"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>547e8b1f4759de10d6d2c45c416d439c</id>
+        <name>UMB - Fraud Inv Addt Acct Info</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-10-22 21:19:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>987e8b1f4759de10d6d2c45c416d439e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-10-22 21:19:32</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=987e8b1f4759de10d6d2c45c416d439e"/>
+    <sys_hub_flow_input action="DELETE" query="model=547e8b1f4759de10d6d2c45c416d439c"/>
+    <sys_hub_flow_output action="DELETE" query="model=547e8b1f4759de10d6d2c45c416d439c"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=547e8b1f4759de10d6d2c45c416d439c"/>
+    <sys_hub_action_instance action="DELETE" query="flow=547e8b1f4759de10d6d2c45c416d439c"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=547e8b1f4759de10d6d2c45c416d439c"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=547e8b1f4759de10d6d2c45c416d439c"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=547e8b1f4759de10d6d2c45c416d439c"/>
+    <sys_hub_flow_variable action="DELETE" query="model=547e8b1f4759de10d6d2c45c416d439c"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_547e8b1f4759de10d6d2c45c416d439c"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_547e8b1f4759de10d6d2c45c416d439c"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_547e8b1f4759de10d6d2c45c416d439c"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_547e8b1f4759de10d6d2c45c416d439c"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=547e8b1f4759de10d6d2c45c416d439c"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=547e8b1f4759de10d6d2c45c416d439c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</application>
+        <comments/>
+        <file_path/>
+        <instance_id>a5c8766d0a0a3c7b0064b5ab29d491bd</instance_id>
+        <instance_name>umbdev</instance_name>
+        <name>sys_hub_flow_547e8b1f4759de10d6d2c45c416d439c</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><attributes/><authored_on_release_version>25000</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from><copied_from_name>FlowTemplate_Empty</copied_from_name><description/><display_name_after_preview/><flow_priority/><generation_source/><internal_name>umb__fraud_inv_addt_acct_info</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>UMB - Fraud Inv Addt Acct Info</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><substatus/><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-22 21:19:32</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>547e8b1f4759de10d6d2c45c416d439c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>UMB - Fraud Inv Addt Acct Info</sys_name><sys_overrides/><sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope><sys_update_name>sys_hub_flow_547e8b1f4759de10d6d2c45c416d439c</sys_update_name><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-22 21:19:32</sys_updated_on><type>flow</type></sys_hub_flow><sys_variable_value action="delete_multiple" query="document_key=547e8b1f4759de10d6d2c45c416d439c"/><sys_hub_trigger_instance action="delete_multiple" query="flow=547e8b1f4759de10d6d2c45c416d439c"/><sys_hub_flow_stage action="delete_multiple" query="flow=547e8b1f4759de10d6d2c45c416d439c"/><sys_flow_cat_variable_model action="delete_multiple" query="id=547e8b1f4759de10d6d2c45c416d439c^sys_idNOT IN987e8b1f4759de10d6d2c45c416d439e"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>547e8b1f4759de10d6d2c45c416d439c</id><name>UMB - Fraud Inv Addt Acct Info</name><sys_class_name>sys_flow_cat_variable_model</sys_class_name><sys_created_by>MXT011</sys_created_by><sys_created_on>2024-10-22 21:19:32</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>987e8b1f4759de10d6d2c45c416d439e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package/><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope><sys_update_name/><sys_updated_by>MXT011</sys_updated_by><sys_updated_on>2024-10-22 21:19:32</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=987e8b1f4759de10d6d2c45c416d439e"/><sys_hub_flow_input action="delete_multiple" query="model=547e8b1f4759de10d6d2c45c416d439c"/><sys_hub_flow_output action="delete_multiple" query="model=547e8b1f4759de10d6d2c45c416d439c"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=547e8b1f4759de10d6d2c45c416d439c"/><sys_hub_action_instance action="delete_multiple" query="flow=547e8b1f4759de10d6d2c45c416d439c"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=547e8b1f4759de10d6d2c45c416d439c"/><sys_hub_flow_logic action="delete_multiple" query="flow=547e8b1f4759de10d6d2c45c416d439c"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=547e8b1f4759de10d6d2c45c416d439c"/><sys_hub_flow_variable action="delete_multiple" query="model=547e8b1f4759de10d6d2c45c416d439c"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_547e8b1f4759de10d6d2c45c416d439c"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_547e8b1f4759de10d6d2c45c416d439c"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_547e8b1f4759de10d6d2c45c416d439c"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_547e8b1f4759de10d6d2c45c416d439c"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=547e8b1f4759de10d6d2c45c416d439c"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=547e8b1f4759de10d6d2c45c416d439c"/></record_update>]]></payload>
+        <payload_hash>-1881398445</payload_hash>
+        <record_name>UMB - Fraud Inv Addt Acct Info</record_name>
+        <reverted_from/>
+        <source>fe94bd4747915e10d6d2c45c416d436e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-10-22 21:19:32</sys_created_on>
+        <sys_id>d47e8b1f4759de10d6d2c45c416d43a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b6196ceb0000001</sys_recorded_at>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-10-22 21:19:32</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>587e8b1fa259de10daa75e04a463eea2</update_guid>
+        <update_guid_history>587e8b1fa259de10daa75e04a463eea2:-1881398445</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-10-22 21:48:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>0d9c0400fc3b464283a42d8b4f0ca1c4</sys_id>
+        <sys_metadata>547e8b1f4759de10d6d2c45c416d439c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UMB - Fraud Inv Addt Acct Info</sys_name>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_scope_delete display_value="">4fb75f2f386d4846a0296d28392f00c4</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_547e8b1f4759de10d6d2c45c416d439c</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_547e8b1f4759de10d6d2c45c416d439c">d47e8b1f4759de10d6d2c45c416d43a3</sys_update_version>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-10-22 21:48:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
