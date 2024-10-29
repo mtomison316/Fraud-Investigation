@@ -5,7 +5,7 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="x_umbfr_fraud_in_0_fraud_investigations">state=9^EQ<item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="9"/>
+        <filter table="x_umbfr_fraud_in_0_fraud_claims">state=closed^EQ<item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="closed"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
@@ -15,7 +15,7 @@
         <map_page/>
         <mobile_title>Closed</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_umbfr_fraud_in_0_fraud_investigations</name>
+        <name>x_umbfr_fraud_in_0_fraud_claims</name>
         <order>250</order>
         <override_menu_roles>false</override_menu_roles>
         <populate_view/>
@@ -31,8 +31,8 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>36eb71c2872b0e50bd18642c8bbb352e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_umbfr_fraud_in_0_fraud_investigations</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Closed</sys_name>
         <sys_overrides/>
         <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
         <sys_policy/>
@@ -40,7 +40,7 @@
         <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
         <sys_update_name>sys_app_module_36eb71c2872b0e50bd18642c8bbb352e</sys_update_name>
         <sys_updated_by>MXT011</sys_updated_by>
-        <sys_updated_on>2024-10-22 20:27:38</sys_updated_on>
+        <sys_updated_on>2024-10-29 21:17:15</sys_updated_on>
         <timeline_page/>
         <title>Closed</title>
         <u_basic_module/>

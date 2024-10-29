@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>multiple_accounts</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>UMB - Multiple Accounts</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    g_form.setSectionDisplay('Additional_AccountInformation', false);
+    if (g_form.getValue('multiple_accounts', true)) {
+        g_form.setSectionDisplay('Additional_AccountInformation', true);
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>MXT011</sys_created_by>
+        <sys_created_on>2024-10-29 21:26:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>ce42976d47291290d6d2c45c416d435a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>UMB - Multiple Accounts</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="Fraud Investigations" source="x_umbfr_fraud_in_0">8f647fb48766c290bd18642c8bbb3582</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fraud Investigations">8f647fb48766c290bd18642c8bbb3582</sys_scope>
+        <sys_update_name>sys_script_client_ce42976d47291290d6d2c45c416d435a</sys_update_name>
+        <sys_updated_by>MXT011</sys_updated_by>
+        <sys_updated_on>2024-10-29 21:31:19</sys_updated_on>
+        <table>x_umbfr_fraud_in_0_fraud_claims</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -2,6 +2,7 @@
     <element audit="true" db_object_id="31a5bb788766c290bd18642c8bbb35b2" label="Fraud Claims" max_length="40" name="x_umbfr_fraud_in_0_fraud_claims" type="collection">
         <element hint="Amount that was lost (what we booked) at the time of closing the case. This includes both UMB and customer/client liability." label="Actual (NET) loss" max_length="20" name="actual_loss" type="currency"/>
         <element label="Recovery date #1" max_length="40" name="recovery_date" type="glide_date"/>
+        <element label="Acct number 3" max_length="40" name="acct_number_3" type="string"/>
         <element choice="1" label="Oasis" max_length="40" name="oasis" type="choice">
             <choice>
                 <element inactive_on_update="false" label="SAC" sequence="0" value="sac"/>
@@ -41,6 +42,7 @@
         <element hint="Amount of attempted fraud that we prevented from leaving the bank. Includes timely check returns and ACH transactions returned timely." label="Prevented loss" max_length="20" name="prevented_loss" type="currency"/>
         <element label="Prevention action" max_length="40" name="preventio_action" type="string"/>
         <element label="Multiple recovery amounts" max_length="40" name="multiple_recovery_amounts" type="boolean"/>
+        <element label="Multiple Accounts" max_length="255" name="multiple_accounts" type="boolean"/>
         <element label="Type of Fraud" max_length="32" name="type_of_fraud" reference="x_umbfr_fraud_in_0_fraud_types" type="reference"/>
         <element label="Recovery amount #2" max_length="38" name="recovery_amount_2" type="currency"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
@@ -58,7 +60,7 @@
                 <element inactive_on_update="false" label="Suspected Fraud" sequence="1" value="suspected_fraud"/>
             </choice>
         </element>
-        <element label="Additional Accounts" max_length="40" name="additional_accounts" type="string"/>
+        <element label="Acct number 2" max_length="40" name="additional_accounts" type="string"/>
         <element label="Loss collection" max_length="40" name="loss_collection" type="string"/>
         <element choice="1" label="Payment avenue" max_length="40" name="payment_avenue" type="choice">
             <choice>
@@ -67,6 +69,8 @@
             </choice>
         </element>
         <element label="Customer" max_length="40" name="customer" type="string"/>
+        <element label="Acct number 4" max_length="40" name="acct_number_4" type="string"/>
+        <element label="Acct number 5" max_length="40" name="acct_number_5" type="string"/>
         <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" reference_qual="nameINEFO Claims,EFO Prevention" reference_qual_condition="nameINEFO Claims,EFO Prevention" type="reference"/>
         <element hint="Amount received from the BOFD." label="Recovery amount #1" max_length="20" name="recovery_amount" type="currency"/>
         <element choice="1" label="Outstanding paperwork" max_length="40" name="outstanding_paperwork" type="glide_list">
