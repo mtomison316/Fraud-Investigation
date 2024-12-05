@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="31a5bb788766c290bd18642c8bbb35b2" label="Fraud Claims" max_length="40" name="x_umbfr_fraud_in_0_fraud_claims" type="collection">
+        <element label="Marked &quot;Confirmed Fraud&quot; in Oasis" max_length="255" name="marked_confirmed_fraud_in_oasis" type="boolean"/>
         <element hint="Amount that was lost (what we booked) at the time of closing the case. This includes both UMB and customer/client liability." label="Actual (NET) loss" max_length="20" name="actual_loss" type="currency"/>
         <element label="Recovery date #1" max_length="40" name="recovery_date" type="glide_date"/>
         <element label="Acct number 3" max_length="40" name="acct_number_3" type="string"/>
@@ -13,6 +14,7 @@
         <element label="Branch/MF" max_length="32" name="investigation_regions" reference="x_umbfr_fraud_in_0_branch_mutual_fund" type="reference"/>
         <element hint="The amount we are working on recovering" label="Claim amount" max_length="20" name="claim_amount" type="currency"/>
         <element label="Prevention escalation" max_length="32" name="prevention_escalation" reference="x_umbfr_fraud_in_0_prevention_escalation" type="reference"/>
+        <element label="Close date" max_length="40" name="close_date" type="glide_date_time"/>
         <element choice="1" label="Online banking access disabled?" max_length="40" name="online_banking_access_disabled" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
@@ -38,6 +40,7 @@
             </choice>
         </element>
         <element label="Work notes" max_length="40" name="work_notes" type="journal"/>
+        <element label="Treasury Management Services" max_length="1024" name="treasury_management_services" reference="x_umbfr_fraud_in_0_treasury_management_services" type="glide_list"/>
         <element label="New True/False" max_length="40" name="u_boolean_1" type="boolean"/>
         <element hint="Amount of attempted fraud that we prevented from leaving the bank. Includes timely check returns and ACH transactions returned timely." label="Prevented loss" max_length="20" name="prevented_loss" type="currency"/>
         <element label="Prevention action" max_length="40" name="preventio_action" type="string"/>
@@ -49,9 +52,17 @@
         <element dependent="line_of_business" dependent_on_field="line_of_business" label="IBIS Fund" max_length="40" name="ibis_fund" type="string" use_dependent_field="true"/>
         <element label="LOB Loss" max_length="32" name="lob_loss" reference="x_umbfr_fraud_in_0_line_of_business" type="reference"/>
         <element label="Acct Number" max_length="40" name="acct_number" type="string"/>
+        <element label="Booked date" max_length="40" name="booked_date" type="glide_date_time"/>
+        <element label="Notes" max_length="5000" name="notes" type="string"/>
         <element dependent="assignment_group" dependent_on_field="assignment_group" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element dependent="investigation_regions" dependent_on_field="investigation_regions" label="Other branch/MF" max_length="40" name="other_region" type="string" use_dependent_field="true"/>
         <element label="Recovery date #2" max_length="40" name="recovery_date_2" type="glide_date"/>
+        <element choice="1" label="Liability ownership" max_length="40" name="liability_ownership" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Customer/Client" sequence="1" value="customer_client"/>
+                <element inactive_on_update="false" label="UMB" sequence="0" value="umb"/>
+            </choice>
+        </element>
         <element choice="1" label="Confirmed fraud" max_length="40" name="confirmed_fraud" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Not Fraud" sequence="3" value="not_fraud"/>
@@ -99,7 +110,7 @@
         <element hint="Last Name, First Name, Account #" label="Short description" max_length="250" name="short_description" type="string"/>
         <element label="Follow up" max_length="40" name="follow_up" type="glide_date"/>
         <element label="Region" max_length="32" name="region" reference="x_umbfr_fraud_in_0_regions" type="reference"/>
-        <element label="Transaction Specialist Error" max_length="32" name="transaction_specialist_error" reference="x_umbfr_fraud_in_0_transaction_specialist_error" type="reference"/>
+        <element label="Transaction Specialist Error" max_length="32" name="transaction_specialist_error" reference="x_umbfr_fraud_in_0_transaction_specialist_error" type="glide_list"/>
         <element label="Line of Business" max_length="32" name="line_of_business" reference="x_umbfr_fraud_in_0_line_of_business" type="reference"/>
         <element dependent="line_of_business" dependent_on_field="line_of_business" label="Status update" max_length="500" name="status_update" type="string" use_dependent_field="true"/>
         <element label="Recovery amount #3" max_length="38" name="recovery_amount_3" type="currency"/>
